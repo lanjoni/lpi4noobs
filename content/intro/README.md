@@ -1,6 +1,6 @@
-# Introdução <img align="right" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/crystal/crystal-original.svg" alt="Imagem da linguagem" width="100">
+# Introdução <img align="right" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Imagem da linguagem" width="100">
 
-## O que é o Crystal?
+## O que é o Linux?
 
 ### História
 A linguagem Crystal surgiu em um projeto em junho de 2011, com objetivo de ser uma linguagem elegante e produtiva como Ruby e a velocidade e eficiência de uma linguagem compilada.
