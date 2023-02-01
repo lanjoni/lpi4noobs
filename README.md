@@ -9,48 +9,35 @@
 <!-- Title -->
 
 <p align="center">
-  <h2 align="center">Crystal4noobs</h2>
+  <h2 align="center">LPI4Noobs</h2>
 
-  <h1 align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/crystal/crystal-original.svg" alt="Imagem da linguagem" width="120"></h1>
+  <h1 align="center"><img src="content/img/lpi-logo-final.png" alt="Imagem LPI" width="120"></h1>
 
   <p align="center">
     <br />
-    <a href="https://crystal-lang.org/docs/"><strong>Explore a documentação »</strong></a>
+    <a href="https://www.lpi.org/pt-br"><strong>Explore as certificações e programas »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lanjoni/crystal4noobs/issues">Report Bug</a>
+    <a href="https://github.com/lanjoni/lpi4noobs/issues">Report Bug</a>
     ·
-    <a href="https://github.com/lanjoni/crystal4noobs/issues">Request Feature</a>
+    <a href="https://github.com/lanjoni/lpi4noobs/issues">Request Feature</a>
   </p>
 </p>
     
  <!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
-Este projeto possui como objetivo introduzir e explorar funcionalidades da linguagem de programação Crystal, uma linguagem para humanos e computadores, com interações semelhantes ao Ruby, porém, com diversas funcionalidades interessantes. Crystal é uma linguagem nova, porém, com muito potencial.
+Este projeto tem como objetivo introduzir e explorar as possibilidades que o Linux tem a oferecer, preparando o leitor para a certificação "Linux Essentials" (LPI E-1), sendo considerada a certificação de entrada para usuários que desejam conhecer o mundo do software livre, conhecer o que o Linux tem a oferecer, além de expandir os conhecimentos na base de uso de um sistema operacional baseado no Unix.
 
-O material aqui disponibilizado será útil para sua introdução ao mundo do desenvolvimento utilizando Crystal.
+Para visualizar os objetivos e tópicos que devem ser abordados para preparação de um profissional apto a utilizar Linux em seu ambiente de trabalho basta clicar <a href="https://www.lpi.org/our-certifications/exam-010-objectives">aqui</a>. 
+
+Os pontos abordados serão focados em sua certificação, por isso, saiba que todo conteúdo aqui publicado neste guia será de utilidade para alcançar este reconhecimento pelo Linux Professional Institute.
 
 <!-- ROADMAP OF PROJECT -->
 
 ## ROADMAP
 
-- [Introdução](https://github.com/lanjoni/crystal4noobs/tree/main/content/intro)
-  - [Instalação](https://github.com/lanjoni/crystal4noobs/blob/main/content/intro/instalacao.md)
-  - [Hello World!](https://github.com/lanjoni/crystal4noobs/blob/main/content/intro/helloworld.md)
-- [Conceitos](https://github.com/lanjoni/crystal4noobs/tree/main/content/conceitos)
-  - [Integer e Float](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/int32-float64.md)
-  - [Strings](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/strings.md)
-  - [Loops](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/loops.md)
-  - [Condicionais](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/condicionais.md)
-  - [Arrays](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/arrays.md)
-  - [Hash](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/hash.md)
-  - [Arquivos](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/arquivos.md)
-  - [Diretórios](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/diretorios.md)
-  - [Funções](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/funcoes.md)
-  - [Structs](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/structs.md)
-  - [Classes](https://github.com/lanjoni/crystal4noobs/blob/main/content/conceitos/classes.md)
-- [Finalização](https://github.com/lanjoni/crystal4noobs/blob/main/content/finalizacao/finalizacao.md)
+- [Introdução](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro)
   
  
 <!-- CONTRIBUTING -->
@@ -68,7 +55,7 @@ são **extremamente apreciadas**
 
 ## Autores
 
-- **João Augusto Lissoni Lanjoni** - _Developer & Member of He4rt Developers_ - [@lanjoni](https://twitter.com/gutolanjoni)
+- **João Augusto Lissoni Lanjoni** - _Developer, Linux lover & Member of He4rt Developers_ - [@lanjoni](https://twitter.com/gutolanjoni)
 
 ---
 
