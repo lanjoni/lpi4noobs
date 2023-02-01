@@ -27,7 +27,7 @@
  <!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
-Este projeto tem como objetivo introduzir e explorar as possibilidades que o Linux tem a oferecer, preparando o leitor para a certificação "Linux Essentials" (LPI E-1), sendo considerada a certificação de entrada para usuários que desejam conhecer o mundo do software livre, conhecer o que o Linux tem a oferecer, além de expandir os conhecimentos na base de uso de um sistema operacional baseado no Unix.
+Este projeto tem como objetivo introduzir e explorar as possibilidades que o Linux tem a oferecer, preparando o leitor para a certificação "Linux Essentials" (LPI LE-1), sendo considerada a certificação de entrada para usuários que desejam conhecer o mundo do software livre, conhecer o que o Linux tem a oferecer, além de expandir os conhecimentos na base de uso de um sistema operacional baseado no Unix.
 
 Para visualizar os objetivos e tópicos que devem ser abordados para preparação de um profissional apto a utilizar Linux em seu ambiente de trabalho basta clicar <a href="https://www.lpi.org/our-certifications/exam-010-objectives">aqui</a>. 
 
