@@ -21,10 +21,26 @@ Então, em 1979 a AT&T começa a forçar licenças restritivas ao decidir que po
 
 1983 foi o ano que Richard Stallman publicou uma mensagem no grupo "net.unix-wizards" com o seguinte assunto: "New Unix implementation", anunciando a criação do projeto GNU e seus princípios (GNU seria um acrônimo para "**G**NU's **N**ot **U**nix"), declarando a necessidade da criação de um "novo Unix", mencionando a necessidade de diversas ferramentas, por isso, pedindo o apoio em contribuições.
 
-Em 1984 Stallman pediu demissão do AI Lab do MIT, se dedicando totalmente ao Projeto GNU
+Em 1984 Stallman pediu demissão do AI Lab do MIT, se dedicando totalmente ao [Projeto GNU](https://www.gnu.org/), publicando o Manifesto GNU (que cita o termo "software livre" e descreve pontos a serem abordados). O primeiro software a ser publicado pelo Projeto GNU foi o chamado [GNU Emacs](https://www.gnu.org/software/emacs/), escrito por Richard Stallman e Guy L. Steele.
 
+Em 1985 o sistemas de janelas X foi distribuído como software livre pelo Consórcio X, seguindo da fundação da Free Software Foundation e a publicação das chamadas "Quatro liberdades de um Software Livre", sendo elas:
+- Liberdade 0: Liberdade de **executar** o programa como você desejar, para qualquer propósito;
+- Liberdade 1: Liberdade de **estudar** como o programa funciona e adaptá-lo às suas necessidades (para isso o acesso ao código-fonte é essencial);
+- Liberdade 2: Liberdade de **redistribuir cópias** de modo que você possa ajudar outros;
+- Liberdade 3: Liberdade de **redistribuir cópias de suas versões modificadas**, dando a comunidade a change de beneficiar de suas mudanças (acesso ao código-fonte também é essencial);
 
+As liberdades começam com a primeira sendo a "Liberdade 0", na qual foi expresso que seria como o "modo dos desenvolvedores começarem a contar", que seria do 0 (afinal, as linguagens de programação na época - C por exemplo - começavam a contar pelo 0, observe os arrays como um exemplo).
 
+Ainda em 1985 o GCC (GNU C Compiler) teve sua primeira versão finalizada, sendo escrito por Richard Stallman e Len Towe. A definição oficial do que seria um "Software Livre" pode ser acessada clicando [aqui](https://www.gnu.org/philosophy/free-sw.pt-br.html).
+
+Em 1987 Andrew Tanenbaum escreveu uma versão modificada do Unix para fins didáticos, denominada MINIX.
+
+Em 1989 a Free Software Foundation criou o conceito de "copyleft" (sim, como se fosse o contrário de "copyright") e a Licença GNU GPL (General Public License) que garantia as 4 liberdades do software. O principal "esquema" dessa licença para garantir que o software fosse realmente público era que o software pertencia a X, e este X não permitiria qualquer venda do software, respeitando as diretrizes das 4 liberdades. Basicamente poderíamos dizer que fizeram com que o software ficasse "amarrado" ao pertencente e que este pertencente exigiria que este software respeitasse as liberdades (jogada de mestre não é?).
+
+Ainda em 1989:
+- Michael Stonebreaker lançou o [PostgreSQL](https://www.postgresql.org/) como software livre;
+- A Cygnus (fundada por Michael Tiemann, David Henkel-Wallace e John Gilmore) se tornou a primeira empresa que essencialmente começou a prover serviços para software livre;
+- Inicia-se o desenvolvimento do Network Simulator (NS), um simulador de rede de telecomunicações livre. Por meio do advento do Usenet a comunidade se tornou mais unida e expandiu o seu contato para diversos programadores de maneira simples, na qual poderiam compartilhar seus softwares.
 
 ---
 
