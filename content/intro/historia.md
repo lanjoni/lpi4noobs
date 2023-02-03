@@ -42,8 +42,9 @@ Ainda em 1989:
 - A Cygnus (fundada por Michael Tiemann, David Henkel-Wallace e John Gilmore) se tornou a primeira empresa que essencialmente começou a prover serviços para software livre;
 - Inicia-se o desenvolvimento do Network Simulator (NS), um simulador de rede de telecomunicações livre. Por meio do advento do Usenet a comunidade se tornou mais unida e expandiu o seu contato para diversos programadores de maneira simples, na qual poderiam compartilhar seus softwares.
 
-## Linux <img align="right" src="../img/linus_90s.jpg.jpg" alt="Linus Torvalds nos anos 90" width="150">
+## Linux <img align="right" src="../img/linus_90s.jpg" alt="Linus Torvalds nos anos 90" width="150">
 
+O ano era 1991, o projeto GNU estava avançando cada vez mais, seu sistema operacional estava quase completo, mas, ainda dependia de parte do Kernel que o Unix fornecia, até que um estudante finlandês da Universidade de Helsinki publicou uma mensagem mencionando que estava projetando um sistema livre similar ao Minix, na qual obteve ajuda de diversos desenvolvedores de diversas partes do planeta. Esse era o primeiro sinal de que a construção de um sistema operacional totalmente livre era possível, e isso fez com que os integrantes do projeto GNU (ainda mais Richard Stallman) se interessassem pelo projeto. O nome desde estudante era Linus Torvalds (sim, o cara da foto acima), e com apenas 21 anos cursando sua pós-graduação começou a fazer experimentos em seu computador 386, na qual conseguiu fazer com que seu projeto de Kernel executasse concorrentemente dois programas.
 
 ---
 
