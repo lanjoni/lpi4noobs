@@ -42,6 +42,9 @@ Ainda em 1989:
 - A Cygnus (fundada por Michael Tiemann, David Henkel-Wallace e John Gilmore) se tornou a primeira empresa que essencialmente começou a prover serviços para software livre;
 - Inicia-se o desenvolvimento do Network Simulator (NS), um simulador de rede de telecomunicações livre. Por meio do advento do Usenet a comunidade se tornou mais unida e expandiu o seu contato para diversos programadores de maneira simples, na qual poderiam compartilhar seus softwares.
 
+## Linux <img align="right" src="../img/linus_90s.jpg.jpg" alt="Linus Torvalds nos anos 90" width="150">
+
+
 ---
 
 Toda grande revolução começa de um ponto na história, por isso, vamos voltar um pouco no tempo e entender o que se passava durante o surgimento do movimento do software livre.
