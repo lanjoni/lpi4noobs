@@ -38,6 +38,8 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
 ## ROADMAP
 
 - [Introdução](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro)
+  - [História](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/historia.md)
+  - [Licenças](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/licencas.md)
   
  
 <!-- CONTRIBUTING -->
