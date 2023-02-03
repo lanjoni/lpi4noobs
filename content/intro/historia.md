@@ -44,14 +44,24 @@ Ainda em 1989:
 
 ## Linux <img align="right" src="../img/linus_90s.jpg" alt="Linus Torvalds nos anos 90" width="150">
 
-O ano era 1991, o projeto GNU estava avançando cada vez mais, seu sistema operacional estava quase completo, mas, ainda dependia de parte do Kernel que o Unix fornecia, até que um estudante finlandês da Universidade de Helsinki publicou uma mensagem mencionando que estava projetando um sistema livre similar ao Minix, na qual obteve ajuda de diversos desenvolvedores de diversas partes do planeta. Esse era o primeiro sinal de que a construção de um sistema operacional totalmente livre era possível, e isso fez com que os integrantes do projeto GNU (ainda mais Richard Stallman) se interessassem pelo projeto. O nome desde estudante era Linus Torvalds (sim, o cara da foto acima), e com apenas 21 anos cursando sua pós-graduação começou a fazer experimentos em seu computador 386, na qual conseguiu fazer com que seu projeto de Kernel executasse concorrentemente dois programas.
+O ano era 1991, o projeto GNU estava avançando cada vez mais, seu sistema operacional estava quase completo, mas, ainda dependia de parte do Kernel que o Unix fornecia, até que um estudante finlandês da Universidade de Helsinki publicou uma mensagem mencionando que estava projetando um sistema livre similar ao Minix, na qual obteve ajuda de diversos desenvolvedores de diversas partes do planeta. Esse era o primeiro sinal de que a construção de um sistema operacional totalmente livre era possível, e isso fez com que os integrantes do projeto GNU (ainda mais Richard Stallman) se interessassem pelo projeto. O nome desde estudante era Linus Torvalds (sim, o cara da foto acima), e com apenas 21 anos cursando sua pós-graduação começou a fazer experimentos em seu computador 386, na qual conseguiu fazer com que seu projeto de Kernel executasse concorrentemente dois programas, por isso, realizou um anúncio na Internet que já conseguira seu primeiro protótipo.
+
+Em março de 1984 a primeira versão estável foi publicada (a chamada versão 1.0), na qual durante todo o período de desenvolvimento centenas de desenvolvedores se juntaram para integrar todo o sistema GNU no kernel de Linus, nomeado como Linux (um acrônimo para Linus's Minix, Linus's Unix ou até mesmo **L**inux **i**s **N**ot **U**ni**x**).
+
+Diversos componentes do kernel Linux foram distribuídos sob licença GNU GPL, e esta falta de um núcleo completo livre havia finalizado para o projeto GNU publicar seu sistema operacional GNU/Linux, no qual Linus Torvalds havia completado.
+
+Torvalds disse que não queria dinheiro por uma série de razões, mas, que seu principal intuito era pelo sentimento de que estava "seguindo os passos de centenas de ciencistas e acadêmicos", afinal, as pessoas contruíram seu trabalho "apoiando-se nos ombros de gigantes".
+
+Em 1992 surgiram as primeiras distribuições GNU/Linux como SLS que posteriormente se tornou Slackware (que ainda tem suporte até os dias atuais). Em 1993 tivemos a distribuição Debian sendo lançada com apoio da FSF, iniciada por Ian Murdock e tem suporte até os dias atuais, servindo como base de diversas outras como Ubuntu, Mint, entre outras.
+
+Hoje o GNU/Linux permanece como software livre sob os termos da GNU GPL, porém, diversas empresas utilizam dele para oferecer produtos ou suporte técnico profissional. Ainda há controvérsias sobre o uso do nome Linux e GNU/Linux, na qual argumentam que GNU/Linux seria para um sistema totalmente livre, mas, isso é outra história...
 
 ---
 
-Toda grande revolução começa de um ponto na história, por isso, vamos voltar um pouco no tempo e entender o que se passava durante o surgimento do movimento do software livre.
+Agora que você já entendeu sobre a história do início do movimento do software livre, vamos estudar um pouco sobre licenças e como elas funcionam!
 
 <p align="right">
-  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/intro/historia.md">Próximo -> História</a>
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/intro/licencas.md">Próximo -> Licenças</a>
 </p>
 
 <p align="left">
