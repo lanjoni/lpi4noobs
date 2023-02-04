@@ -41,6 +41,7 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [História](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/historia.md)
   - [Licenças](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/licencas.md)
   - [Instalação](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/instalacao.md)
+  - [Conhecendo](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/conhecendo.md)
   
  
 <!-- CONTRIBUTING -->
