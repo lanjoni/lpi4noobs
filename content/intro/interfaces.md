@@ -56,3 +56,16 @@ Existem ainda diversas interfaces gráficas que podem ser instaladas, assim como
 
 Não irei entrar em muitos detalhes, mas, recomendo darem uma lida depois de como é seu funcionamento e produtividade, além de serem extremamente leves.
 
+Para lerem um pouco mais e conhecerem outras interfaces acesse o blog do Tecmint e descubra mais possibilidades clicando <a href="https://www.tecmint.com/best-linux-desktop-environments/">aqui<a/>!
+  
+---
+
+Excelente! Conseguimos concluir nossa introdução completa sobre o mundo Linux, na qual falamos sobre a história do Linux em si, funcionamento de licenças, apresentações de distribuições e interfaces, além de configurarmos uma máquina virtual para realizarmos nossos futuros estudos! Bora para as aulas utilizando o Linux?
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/conceitos">Próximo -> Conceitos</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
