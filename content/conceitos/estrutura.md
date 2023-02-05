@@ -45,3 +45,28 @@ Um diretório vazio utilizado para ponto de montagem de discos.
 
 ## /media
 
+Um diretório vazio utilizado para ponto de montagem de dispositivos na máquina.
+
+## /proc
+
+Contém informações do Kernel e de processos, sendo um pseudo-filesystem e não existindo realmente no disco. É possível realizar alterações no comportamento do Kernel modificando-se o conteúdo deste diretório.
+
+## /opt
+
+Aqui estão instalados todos os softwares que não são da distribuição Linux por padrão.
+
+## /root
+
+Diretório home do root (superusuário). Algumas distribuições podem não conter este diretório.
+
+## /run
+
+Possui informações do sistema desde a última inicialização, sendo apagados no início do processo de boot. Arquivos que indicam PID (basicamente o ID do processo) do processo em execução estão neste diretório.
+
+## /sbin
+
+Arquivos que são essenciais ao sistema, tais como utilitários para administração da máquina, na qual normalmente somente o superusuário possui acesso aos arquivos, sendo eles "mkfs", "mkswap", "reboot", entre outros.
+
+## /tmp
+
+Diretório para arquivos temporários. 
