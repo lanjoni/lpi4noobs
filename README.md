@@ -44,6 +44,8 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [Conhecendo](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/conhecendo.md)
   - [Interfaces](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/interfaces.md)
 - [Conceitos](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos)
+  - [Terminal](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos/terminal.md)
+  - [Estrutura](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos/estrutura.md)
   
  
 <!-- CONTRIBUTING -->
