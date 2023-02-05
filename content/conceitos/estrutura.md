@@ -69,4 +69,36 @@ Arquivos que são essenciais ao sistema, tais como utilitários para administra�
 
 ## /tmp
 
-Diretório para arquivos temporários. 
+Diretório para arquivos temporários. Em algumas distribuições este diretório é montado em memória.
+
+## /usr
+
+Aqui estão todos os arquivos pertencentes aos usuários, sendo a segunda maior hierarquia de diretórios no Linux. Alguns dos sub-diretórios:
+
+### /usr/bin
+
+Ferramentas e comandos auxiliares do usuário.
+
+### /usr/include
+
+Cabeçalhos e bibliotecas da linguagem C.
+
+### /usr/share
+
+Arquivos com permissão apenas para leitura e arquitetura independente, podendo ser compartilhados entre distribuições. Uma curiosidade é que neste diretório está o diretório "man", responsável por armazenar os manuais dos comandos.
+
+## /var
+
+Diretório responsável por armazenar informações variáveis do sistema, tais como arquivos de logs, e-mails, entre outros.
+
+---
+
+Perfeito! Agora que você já entendeu como é o funcionamento do terminal, o que é um interpretador de shell e como pode utilizá-lo, vamos entender e conhecer melhor sobre a estrutura de nosso sistema operacional.
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/conceitos/estrutura.md">Próximo -> Estrutura</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
