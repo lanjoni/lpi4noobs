@@ -43,6 +43,7 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [Instalação](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/instalacao.md)
   - [Conhecendo](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/conhecendo.md)
   - [Interfaces](https://github.com/lanjoni/lpi4noobs/tree/main/content/intro/interfaces.md)
+- [Conceitos](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos)
   
  
 <!-- CONTRIBUTING -->
