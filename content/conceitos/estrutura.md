@@ -93,10 +93,10 @@ Diretório responsável por armazenar informações variáveis do sistema, tais 
 
 ---
 
-Perfeito! Agora que você já entendeu como é o funcionamento do terminal, o que é um interpretador de shell e como pode utilizá-lo, vamos entender e conhecer melhor sobre a estrutura de nosso sistema operacional.
+Bem, agora que você já entendeu como é feita a estruturação dos diretórios nas distribuições Linux, o que acha de começarmos a entender alguns conceitos por trás de comandos? Vamos começar pelo ***sudo***!
 
 <p align="right">
-  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/conceitos/estrutura.md">Próximo -> Estrutura</a>
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/conceitos/sudo.md">Próximo -> Sudo</a>
 </p>
 
 <p align="left">
