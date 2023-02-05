@@ -78,6 +78,9 @@ O Arch Linux se destaca das demais distribuições por ter um funcionamento um t
 Algumas distribuições conhecidas baseadas no Arch Linux:
 - Manjaro
 - Artix
+- ArcoLinux
+- Chakra
+- EndeavourOS
 
 O gerenciador de pacotes oficial do Arch Linux é o "pacman", mas, você consegue instalar pacotes específicos da comunidade utilizando o "AUR" (Arch User Repository). Para instalar algum pacote no Arch utilizamos o seguinte comando:
 
@@ -92,4 +95,24 @@ Lançado em dezembro de 1999, com sua primeira versão estável em março de 200
 
 O que caracteriza esta distribuição é a inexistência em parte de pacotes pré-compilados, ou seja, todo pacote a ser utilizado será compilado em sua máquina, assim como sua instalação que "pode" compilar até mesmo o próprio kernel Linux. Claro, esta seria uma instalação que demoraria muito tempo comparada às outras, mas, seria impossível qualquer pacote não funcionar em seu hardware, afinal, eles foram compilados para e pelo seu hardware.
 
-Para atualizações é utilizado o "emerge" e para gerenciamento de pacotes utilizamos o "Portage".
+Algumas distribuições baseadas no Gentoo:
+- Funtoo
+- Pentoo
+- Sabayon
+
+Para atualizações é utilizado o "emerge" e para gerenciamento de pacotes utilizamos o "portage". Para instalar algum pacote utilize o comando "emerge":
+```sh
+# emerge
+```
+
+---
+
+Ótimo! Agora que já conhecemos um pouco sobre as distribuições, o que você acha de vermos um pouco sobre as interfaces gráficas?
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/intro/interfaces.md">Próximo -> Interfaces gráficas</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
