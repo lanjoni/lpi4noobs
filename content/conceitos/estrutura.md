@@ -96,7 +96,7 @@ Diretório responsável por armazenar informações variáveis do sistema, tais 
 Bem, agora que você já entendeu como é feita a estruturação dos diretórios nas distribuições Linux, o que acha de começarmos a entender alguns conceitos por trás de comandos? Vamos começar pelo ***sudo***!
 
 <p align="right">
-  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/conceitos/sudo.md">Próximo -> Sudo</a>
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/conceitos/sudo.md">Próximo -> Su e Sudo</a>
 </p>
 
 <p align="left">
