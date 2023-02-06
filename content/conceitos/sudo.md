@@ -15,4 +15,28 @@ Instalar algum pacote e movimentar arquivos e diretórios dos quais o usuário c
 ```
 > Isto vale para qualquer grupo a ser adicionado, sendo "sudo" o nome do grupo e "username" o nome de seu usuário.
 
-Mas, você já parou pra pensar que nem sempre 
+Mas, você já parou pra pensar que nem sempre é necessário entrar como superusuário? As vezes entrar como o usuário que detém tal arquivo ou como usuário que está em tal grupo seria mais simples e mais seguro, afinal, seria uma possibilidade simples para pular de um usuário para outro correto? Pois então conheça o comando "su".
+
+## Su
+
+O comando ***su*** é utilizado para mudar o proprietário de uma sessão para qualquer outro usuário, alterando suas permissões administrativas sobre determinado arquivo. Para fazer um teste vamos precisar dos sequintes comandos:
+
+### Primeiramente vamos criar um novo usuário
+
+```sh
+# useradd newuser
+```
+> Troque "newuser" para o nome do usuário que deseja criar.
+
+Agora precisaremos criar uma senha para este usuário.
+
+```sh
+# passwd newuser
+```
+
+### Agora vamos iniciar uma sessão com este usuário
+
+```sh
+$ su newuser
+```
+> A senha pedida neste caso é a senha do usuário que foi criado!
