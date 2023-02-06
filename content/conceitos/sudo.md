@@ -56,3 +56,15 @@ ou
 ```sh
 $ su -
 ```
+
+---
+
+Excelente! Agora você entendeu como é o funcionamento do comando "sudo" e do comando "su"! Mas, ainda assim existiam alguns comandos que foram mostrados aqui que ainda nem falamos sobre... Seria legal se existisse algum meio simples de verificar qual é o funcionamento de determinados comandos, correto? Isso nós vamos conhecer no próximo tópico!
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/conceitos/man.md">Próximo -> Man</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
