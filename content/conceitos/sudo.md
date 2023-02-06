@@ -10,7 +10,7 @@ Além do comando sudo existem outras alternativas, como o comando ***<a href="ht
 
 Instalar algum pacote e movimentar arquivos e diretórios dos quais o usuário comum não tem permissão são algumas das possibilidades que temos ao se utilizar o comando sudo para adquirir privilégios, mas, qualquer usuário tem acesso ao sudo desde que saiba a senha do superusuário root? A resposta é: não. Para se poder fazer uso do sudo primeiramente é necessário instalar o pacote responsável por esta administração (o próprio nome **sudo**), mas, geralmente a maioria das distribuições conhecidas já vem com o pacote instalado. A segunda tarefa a se fazer é adicionar os usuários que deseja ao grupo "sudo". Um exemplo para adicionar determinado usuário a um grupo:
 
-```sh
+```
 # usermod -a -G sudo username
 ```
 > Isto vale para qualquer grupo a ser adicionado, sendo "sudo" o nome do grupo e "username" o nome de seu usuário.
@@ -23,14 +23,14 @@ O comando ***su*** é utilizado para mudar o proprietário de uma sessão para q
 
 ### Primeiramente vamos criar um novo usuário
 
-```sh
+```
 # useradd newuser
 ```
 > Troque "newuser" para o nome do usuário que deseja criar.
 
 Agora precisaremos criar uma senha para este usuário.
 
-```sh
+```
 # passwd newuser
 ```
 
@@ -40,3 +40,19 @@ Agora precisaremos criar uma senha para este usuário.
 $ su newuser
 ```
 > A senha pedida neste caso é a senha do usuário que foi criado!
+
+### E como eu consigo iniciar uma sessão como superusuário?
+
+***ATENÇÃO! Tome muito cuidado com todas as ações que você fizer como superusuário, afinal, não haverá nenhuma restrição!***
+
+Para entrar como superusuário é simples: basta utilizar algum destes dois comandos:
+
+```sh
+$ sudo su
+```
+
+ou 
+
+```sh
+$ su -
+```
