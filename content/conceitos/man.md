@@ -14,3 +14,14 @@ O nome "opções" são todos os parâmetros que o usuário pode adicionar para a
 - **-f** ou **-whatis**: apresenta uma pequena descrição sobre o comando;
 - **-k palavra** ou **-apropos palavra**: apresenta um resultado baseado em uma busca nos índices do manual de acordo com a palavra fornecida;
 
+---
+
+Bom, agora que você já sabe como utilizar o manual para visualizar como determinados comandos funcionam, o que acha da gente conhecer as chamadas "variáveis de ambiente"?
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/conceitos/variaveis.md">Próximo -> Variáveis de Ambiente</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
