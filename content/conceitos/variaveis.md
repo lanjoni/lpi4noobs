@@ -52,6 +52,8 @@ Agora com o comando `printenv` vamos visualizar nossa variável criada!
 
 As variáveis de ambiente e de shell são muito úteis em suas sessões, afinal, é uma maneira completa para definir configurações específicas e tratar valores de uma forma única em seu interpretador de shell. Algumas aplicações necessitam da criação de uma variável de shell para funcionar da maneira correta (como os famosos "version managers"), então, acredito que abrindo o arquivo de configuração de seu interpretador de shell você vai encontrar algumas dessas variáveis.
 
+Caso queira mais detalhes para se aprofundar neste assunto: recomendo a <a href="https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-linux-pt">publicação no DigitalOcean do Justin Ellingwood</a>!
+
 ---
 
 Agora que já implementamos e entendemos o funcionamento de variáveis de ambiente e de shell, o que acha de entendermos como é feito o permissionamnento de arquivos e o que ele pode nos mostrar?
