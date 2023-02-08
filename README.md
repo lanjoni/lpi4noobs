@@ -49,6 +49,7 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [Su e Sudo](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos/sudo.md)
   - [Man](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos/man.md)
   - [Variáveis de Ambiente](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos/variaveis.md)
+  - [Permissionamento](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos/permissionamento.md)
   
  
 <!-- CONTRIBUTING -->
