@@ -117,4 +117,95 @@ Desta forma:
 - Os grupos que o usuário pertence possuem permissão para leitura, escrita e execução; 
 - Os demais usuários tem permissão de execuçao apenas;
 
-As letras
+As letras de definição são:
+- **u** = usuário
+- **g** = grupo
+- **o** = outros
+
+## Definindo permissões com valores numéricos
+
+Uma outra forma de definir permissões é utilizando números, assim, conseguimos definir com uma linha de três números quais serão as permissões para cada arquivo. Um exemplo de tabela poderá mostrar como é feita a lógica por trás desse permissionamento:
+
+| Permissão | Binário | Decimal |
+|-----------|---------|---------|
+| ---       | 000     | 0       |
+| --x       | 001     | 1       |
+| -w-       | 010     | 2       |
+| -wx       | 011     | 3       |
+| r--       | 100     | 4       |
+| r-x       | 101     | 5       |
+| rw-       | 110     | 6       |
+| rwx       | 111     | 7       |
+
+O que esse monte de números quer dizer? Bom, os valores decimais vão definir quais serão suas permissões para usuário, grupo e outros, mas, para entender melhor como funciona este modelo veja que:
+
+- **r** vale 4
+- **w** vale 2
+- **x** vale 1
+
+Então, se eu quiser, por exemplo, definir as permissões de leitura, escrita e execução para meu usuário, apenas leitura para meu grupo, e nenhuma permissão para os outros eu utilizaria o comando:
+
+```sh
+$ chmod 740 teste.txt
+```
+
+Assim, teríamos a seguinte visualização de permissões quando utilizássemos o comando `ls -l`:
+
+```sh
+-rwxr-----
+```
+
+Mas, por que? Simples:
+- Usuário recebe leitura + escrita + execução = 4 + 2 + 1 = 7
+- Grupo recebe apenas leitura = 4
+- Outros não recebem nada = 0
+
+***O terrível 777***: tome muito cuidado! Como dizia o senhor tio Ben (tio do homem-aranha) "com grandes poderes vem grandes responsabilidades"! Definir "777" seria nada mais que permitir que todos podem fazer o que quiserem com seu arquivo! Esta falha pode ser gravíssima!
+
+## Propriedade do arquivo
+
+Já parou pra pensar que um arquivo criado por você possui propriedade inteiramente sua? Isso significa que todo comando `chmod` executado para usuário será para você mesmo! Mas, caso eu quisesse mudar a quem é o usuário dono do arquivo, seria possível? A resposta é **sim**! Simples e prático com o comando `chown`!
+
+O comando `chown` tem o papel de alterar as propriedades de um arquivo, neste caso, pense como se realmente fosse a propriedade de residência ou algo do tipo, quem "tem poder" sobre aquele arquivo, ou seja, quem é o dono!
+
+A estrutura do comando é simples:
+
+```sh
+$ chown usuário arquivo
+```
+> Neste caso vamos passar a propriedade do *arquivo* para o *usuário*!
+
+Então, tecnicamente falando caso eu tivesse um arquivo de teste e quisesse mudar sua propriedade seria bem simples, basta eu executar o comando informando primeiro o nome do usuário que eu quero que passe a ser dono do arquivo seguido do nome do arquivo!
+
+```sh
+$ chown novouser teste.txt
+```
+
+Certo, mas, caso este novo user tenha dois grupos, `novouser` e `administracao`, e eu queira passar para o novo user com o grupo administração, seria possível? A resposta é: sim! Veja um exemplo abaixo:
+
+```sh
+$ chown novouser:administracao teste.txt
+```
+> Basicamente adicionamos os dois pontos para depois informar o nome do grupo a ser adicionado!
+
+Caso queira apenas alterar o grupo, basta colocar apenas os dois pontos seguido do nome do grupo, veja:
+
+```sh
+$ chown :administracao teste.txt
+```
+> Assim vamos passar a propriedade para o grupo adminstração!
+
+Certo, mas, se eu quiser alterar a permissão de um diretório, e consequentemente de todos os arquivos que estão nele (imagine que tenhamos diversos arquivos e sub-diretórios dentro dele), como fazemos? Simples: utilizando o parâmetro "-R" indicando que faremos uma chamada recursiva, vindo do último arquivo do diretório para o primeiro, até chegar no próprio diretório! Basicamente o comando vai primeiro mudar de todo o conteúdo do diretório para depois apenas mudar dele em si. Veja um exemplo:
+
+```sh
+$ chown -R novouser ./Novo
+```
+> Neste caso mudamos do diretório novo partindo de nossa localização atual, por isso vem o ponto (".") antes! Ainda iremos estudar sobre caminhos!
+
+Bom, e caso eu queira copiar as permissões de um usuário ou grupo para outro arquivo, como eu poderia fazer? Simples! Veja um exemplo abaixo utilizando o parâmetro de **referência**:
+
+```sh
+$ chown --reference=teste.txt novoteste.txt
+```
+> Neste caso a cópia de permissionamento é tanto para a propriedade quanto para as permissões em ci de leitura, escrita e execução para o próprio usuário, grupo(s) que pertence e outros!
+
