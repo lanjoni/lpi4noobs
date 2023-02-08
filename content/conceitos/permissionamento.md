@@ -209,3 +209,31 @@ $ chown --reference=teste.txt novoteste.txt
 ```
 > Neste caso a cópia de permissionamento é tanto para a propriedade quanto para as permissões em ci de leitura, escrita e execução para o próprio usuário, grupo(s) que pertence e outros!
 
+## Permissões especiais
+
+Determinadas ocasiões necessitam de determinadas permissões (até rimou). Este é um fato. Por isso vamos visualizar aqui três tipos de permissões especiais para nossos arquivos: *SUID* (**S**et owner **U**ser **ID**), *SGID* (**S**et **G**roup **ID**) e *Sticky bit*.
+
+### SUID
+O *SUID* tem como finalidade entregar uma permissão temporária para um usuário executar/utilizar um programa/arquivo com as permissões do proprietário do arquivo (nestes casos, geralmente este usuário proprietário é o superusuário root). **Somente** neste arquivo. Esta possibilidade permite que não haja necessidade de abrir o arquivo para acesso ou alterar sua propriedade.
+
+Mas, já existe algum exemplo de aplicação que faz uso do SUID? Claro! Um exemplo é o comando `passwd`, utilizado para permitir que o usuário mude a própria senha: a mudança de senha realiza modificações no diretório "/etc/shadow", no qual apenas o superusuário root tem essa permissão! Mas, o usuário, obviamente, pode mudar sua própria senha. 
+
+Certo, mas, como sabemos que o usuário possui o SUID ativado? Afinal, o SUID conta com um bit de ativação... Simples! Utilizando o comando `ls -l` já devemos visualizar uma substituição na posição de permissão para execução do usuário (no caso o "x"), sendo trocado por uma letra "s"! Se o "s" for minúsculo então o usuário tem permissão e se aparecer com o "S" maiúsculo significa que não possui permissão.
+
+Um exemplo seria:
+
+```sh
+-rwsr-xr-x user teste.txt
+```
+
+Para habilitar o SUID é simples: basta adicionar o dígito "4" antes de seu início de permissões com o comando "chmod" utilizando os números decimais. Um exemplo seria:
+
+```
+# chmod 4750 teste.txt
+```
+> Para remover o bit SUID basta trocar o "4" do início por "0".
+
+
+
+**Curiosidade**: Caso você queira visualizar quais arquivos no seu sistema possuem o bit SUID ativo, basta executar o seguinte comando: `find / -perm +4000`. Para visualizar um comando que mostra o "s" basta executar o comando `ls -l /caminho/do/comando`, neste caso, poderia ser `ls -l /bin/ping`.
+
