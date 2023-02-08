@@ -39,7 +39,7 @@ Atualmente temos o uso do XFCE em sua versão 4, mais especificamente 4.18.
   <figcaption>Ambiente de trabalho utilizando XFCE 4.</figcaption>
 </figure>
 
-## MATE
+## MATE <img align="right" width="100" src="../img/mate.png" alt="Logo MATE">
 
 O MATE é um ambiente de trabalho baseado no GNOME, sendo criado devido a mudança que o GNOME 3 teve, na qual não agradou a todos. Seu nome é inspirado na erva-mate (e no chimarrão, claro), sendo anunciado em junho de 2011 no fórum do Arch Linux. Foi desenvolvido por Perberos, Stefano Karapetsas, Clement Lefebvre e Steve Zesch.
 
