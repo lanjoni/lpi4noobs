@@ -233,7 +233,25 @@ Para habilitar o SUID é simples: basta adicionar o dígito "4" antes de seu in�
 ```
 > Para remover o bit SUID basta trocar o "4" do início por "0".
 
+**Curiosidade**: caso você queira visualizar quais arquivos no seu sistema possuem o bit SUID ativo, basta executar o seguinte comando: `find / -perm +4000`. Para visualizar um comando que mostra o "s" basta executar o comando `ls -l /caminho/do/comando`, neste caso, poderia ser `ls -l /bin/ping`.
 
+### SGID
 
-**Curiosidade**: Caso você queira visualizar quais arquivos no seu sistema possuem o bit SUID ativo, basta executar o seguinte comando: `find / -perm +4000`. Para visualizar um comando que mostra o "s" basta executar o comando `ls -l /caminho/do/comando`, neste caso, poderia ser `ls -l /bin/ping`.
+A única diferença entre o SUID é que ao invés de executar o arquivo com as permissões de dono será executado com as permissões de grupo do arquivo. Ao invés da letra "s" aparecer nas permissões de execução do usuário, aparecerá nas permissões de execução do grupo, sendo algo parecido com o exemplo:
+
+```sh
+-rwxr-sr-x user teste.txt
+```
+> Lembrando que o "s" minúsculo indica que possui permissão de execução do grupo e o "S" maiúsculo indica que não possui permissão.
+
+Para habilitar o SGID ao invés de utilizarmos o número "4" utilizaremos o número "2" no início de nossas permissões, assim como no exemplo abaixo:
+
+```
+# chmod 2750 teste.txt
+```
+> Para remover o bit SGID basta trocar o "2" do início por "0".
+
+**Curiosidade**: caso você queira visualizar quais arquivos no seu sistema possuem o bit SGID ativo, basta executar o seguinte comando: `find / -perm +2000`. Para visualizar um comando que mostra o "s" basta executar o comando `ls -l /caminho/do/comando`.
+
+**Atenção**: cuidado ao trabalhar com as permissões especiais, afinal, qualquer execução será feita com privilégios do usuário dono do determinado arquivo (podendo muita das vezes ser o superusuário root)! Isto significa que caso seu arquivo inicie uma nova sessão um subshell (como com algum editor de texto via terminal), será iniciada como superusuário root.
 
