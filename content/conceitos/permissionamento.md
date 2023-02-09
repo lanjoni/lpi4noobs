@@ -267,6 +267,20 @@ Ao invés da letra "s" teremos a letra "t", na qual o "t" minúsculo indica que 
 
 Para habilitar o Sticky bit ao invés de utilizarmos o número "4" ou "2", utilizaremos o número "1"  no início das permissões com o chmod. Um exemplo seria:
 
-```sh
+```
 # chmod 1757 teste.txt
 ```
+
+**Curiosidade**: caso você queira visualizar quais arquivos no seu sistema possuem o Sticky bit ativo, basta executar o seguinte comando: `find / -perm +1000`. Para visualizar um comando que mostra o "s" basta executar o comando `ls -l /caminho/do/comando`.
+
+---
+
+Muito bom! Estou orgulhoso de você ter chego até aqui! Agora vamos para algumas atividades práticas e manipulações utilizando o nosso adorável interpretador de shell!
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/pratica">Próximo -> Prática</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
