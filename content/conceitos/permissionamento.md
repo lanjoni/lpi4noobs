@@ -255,3 +255,18 @@ Para habilitar o SGID ao invés de utilizarmos o número "4" utilizaremos o núm
 
 **Atenção**: cuidado ao trabalhar com as permissões especiais, afinal, qualquer execução será feita com privilégios do usuário dono do determinado arquivo (podendo muita das vezes ser o superusuário root)! Isto significa que caso seu arquivo inicie uma nova sessão um subshell (como com algum editor de texto via terminal), será iniciada como superusuário root.
 
+### Sticky bit
+
+Utilizado para impossibilitar que os demais usuários possam excluir os conteúdos de diretórios, mesmo que ainda haja a permissão de escrita no diretório. Isto significa que um usuário poderia ter um diretório na qual pode editar arquivos, enviar novos arquivos, salvar novos arquivos, mas, nunca excluir. Somente o proprietário do arquivo e o superusuário root possuem permissão para excluir arquivos neste diretório.
+
+Ao invés da letra "s" teremos a letra "t", na qual o "t" minúsculo indica que possui permissão de execução e o "T" maiúsculo indica que não possui permissão. A letra ficará na última posição, no mesmo campo responsável por indicar a permissão de execução para outros. Observe o exemplo abaixo:
+
+```sh
+-rwxr-xrwt user Novo
+```
+
+Para habilitar o Sticky bit ao invés de utilizarmos o número "4" ou "2", utilizaremos o número "1"  no início das permissões com o chmod. Um exemplo seria:
+
+```sh
+# chmod 1757 teste.txt
+```
