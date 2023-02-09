@@ -275,7 +275,7 @@ Para habilitar o Sticky bit ao invés de utilizarmos o número "4" ou "2", utili
 
 ---
 
-Muito bom! Estou orgulhoso de você ter chego até aqui! Agora vamos para algumas atividades práticas e manipulações utilizando o nosso adorável interpretador de shell!
+Muito bom! Estou orgulhoso de você ter chego até aqui! O que achou do funcionamento do permissionamento? Agora vamos para algumas atividades práticas e manipulações utilizando o nosso adorável interpretador de shell!
 
 <p align="right">
   <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/pratica">Próximo -> Prática</a>
