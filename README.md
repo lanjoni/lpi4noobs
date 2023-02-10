@@ -51,6 +51,7 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [Variáveis de Ambiente](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos/variaveis.md)
   - [Permissionamento](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos/permissionamento.md)
 - [Prática](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica)
+  - [Navegação](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/navegacao.md)
   
  
 <!-- CONTRIBUTING -->
