@@ -52,6 +52,7 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [Permissionamento](https://github.com/lanjoni/lpi4noobs/tree/main/content/conceitos/permissionamento.md)
 - [Prática](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica)
   - [Navegação](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/navegacao.md)
+  - [Manipulação](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/manipulacao.md)
   
  
 <!-- CONTRIBUTING -->
