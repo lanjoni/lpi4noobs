@@ -78,3 +78,15 @@ guto@turing:~$ cd ./Downloads
 /home/guto/Downloads
 guto@turing:~/Downloads$ 
 ```
+
+---
+
+Ótimo! Agora que você sabe como navegar entre diretórios o que acha de aprender a manipular arquivos?
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/pratica/manipulacao.md">Próximo -> Manipulação</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
