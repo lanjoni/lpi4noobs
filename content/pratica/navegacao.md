@@ -52,3 +52,11 @@ guto@turing:~/Downloads/Novo$ cd ../..
 guto@turing:~$
 ```
 > Os dois pontos `..` simbolizam que queremos ir para o diretório anterior! Utilizar da forma que utilizamos sigfnifica que voltamos para dois diretórios anteriores!
+
+## Caminho absoluto
+
+Agora que já entendemos como é o funcionamento do caminho relativo (partindo do ponto em que eu me encontro), vamos entender o que é o caminho absoluto: o caminho geral, absoluto, partindo desde a raíz de nosso sistema operacional e direcionando para o diretório em questão.
+
+Um exemplo prático seria ao invés de utilizarmos o comando `cd Downloads/Novo` partindo do diretório home de nosso usuário, utilizar `cd /home/guto/Downloads/Novo` e iríamos obter o mesmo resultado!
+
+Basicamente falando o caminho absoluto sempre vai começar com esta barra "/" no começo, pois significa que estamos partindo da raíz de nosso sistema operacional!
