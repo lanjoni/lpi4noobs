@@ -60,3 +60,21 @@ Agora que já entendemos como é o funcionamento do caminho relativo (partindo d
 Um exemplo prático seria ao invés de utilizarmos o comando `cd Downloads/Novo` partindo do diretório home de nosso usuário, utilizar `cd /home/guto/Downloads/Novo` e iríamos obter o mesmo resultado!
 
 Basicamente falando o caminho absoluto sempre vai começar com esta barra "/" no começo, pois significa que estamos partindo da raíz de nosso sistema operacional!
+
+O uso de cada um vai depender da localização em que seu usuário estiver, afinal, em diversas ocasiões utilizar o caminho relativo não será a melhor forma!
+
+## Home
+
+Um truque interessante é: a home do usuário logado sempre será representada pelo sinal de um "til" (~), isto significa que aquele sinal no começo não era besteira, mas, o sinal de o "til" seria equivalente ao diretório "/home/guto"!
+
+Certo, então quer dizer que se eu utilizar o comando `cd ~` eu irei voltar para a home de meu usuário? Sim! Digo ainda mais: se você utilizar o comando `cd` apenas sem nenhuma adição ele vai te enviar diretamente para o home de seu usuário (dependendo do seu interpretador de shell)!
+
+## . e ..
+
+Enquanto `..` significa o diretório anterior, você sabia que o `.` significa o diretório atual? Isto é: se você estiver no home de seu usuário e quiser entrar no diretório de Downloads, uma outra forma seria adicionar um `./` antes do nome! Veja:
+
+```sh
+guto@turing:~$ cd ./Downloads
+/home/guto/Downloads
+guto@turing:~/Downloads$ 
+```
