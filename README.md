@@ -53,6 +53,7 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
 - [Prática](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica)
   - [Navegação](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/navegacao.md)
   - [Manipulação](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/manipulacao.md)
+  - [Edição](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/edicao.md)
   
  
 <!-- CONTRIBUTING -->
