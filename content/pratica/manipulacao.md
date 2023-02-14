@@ -78,3 +78,16 @@ guto@turing:~$ rm -r Novo # Este é um diretório não vazio!
 # rmdir
 guto@turing:~$ rmdir NovoVazio # Este é um diretório vazio!
 ```
+
+
+---
+
+Parabéns! Agora que você já sabe de quais formas pode manipular arquivos e diretórios, o que acha de aprender um pouco mais sobre como podemos editar arquivos utilizando o Linux e até mesmo utilizando o terminal!
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/pratica/edicao.md">Próximo -> Edição</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
