@@ -50,3 +50,15 @@ O VIM trouxe um conceito de plugins e customização de atalhos, fazendo com que
 Os comandos são os mesmos do vi para salvar e sair, além de possuir outras funcionalidades parecidas!
 
 <img src="../img/vim.jpg" alt="Editor de texto VIM">
+
+---
+
+Excelente! Agora que você já conheceu alguns editores de texto que podem ser facilmente encontrados no mundo do software livre, o que acha de estudarmos um pouco sobre o funcionamento de compactação e compressão de arquivos?
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/pratica/compressao.md">Próximo -> Compressão</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
