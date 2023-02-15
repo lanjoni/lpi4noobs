@@ -18,6 +18,12 @@ Sua sintaxe é bem simples e intuitiva, afinal, existe um menu na barra inferior
 
 <img src="../img/nano.webp" alt="Editor de texto GNU Nano">
 
+## GNU Emacs
+
+Surgindo em 1985 sendo baseado no antigo Emacs (**E**ditor **MAC**ro**S**) de 1976, o GNU Emacs foi portado por Richard Stallman em 1984 e tendo sua primeira release um ano depois, possibilitando algumas modificações que evolviam scripts específicos em C e LISP, sendo a primeira alternativa de software livre para o Gosling Emacs. Originalmente pode ser utilizado via terminal, mas, podemos utilizá-lo em um ambiente separadamente!
+
+<img src="../img/emacs.png" alt="Editor de texto GNU Emacs">
+
 ## VI
 
 Tendo seu primeiro release em 1976, o "vi" ficou muito famoso na época por ser um editor prático, simples, leve, intuitivo e que possuia um suporte para funcionalidades específicas diretamente no terminal, possibilitando sua popularização! Podendo ser utilizado para edições simples e edições específicas, o vi pode estar ou não presente por padrão em sua distribuição, sendo necessário utilizar o comando `vi nome_do_seu_arquivo` para começar a utilizar!
@@ -27,6 +33,20 @@ O famoso "salvar e sair" que muitos brincam sobre "necessitar de forçar o desli
 - Após acabar de inserir textos, aperte `esc` para voltar para o modo de comandos;
 - Agora digite `:wq`, na qual os dois pontos ":" indicam um comando a ser digitado, "w" para salvar (escrever - write - traduzido) e "q" para sair (quit - traduzido);
 
+> Para forçar uma saída adicione um sinal de exclamação "!" ao final de todos os comandos! Para forçar um "salvar e sair" seria algo como `:wq!`.
+
 Simples não é?
 
 <img src="../img/vi.webp" alt="Editor de texto VI">
+
+## VIM
+
+O VIM, também conhecido como "**V**i **IM**proved", é um editor de texto que pode ser utilizado também via terminal. Sua primeira release foi em novembro de 1991, sendo adorado por muitos e utilizado até mesmo hoje por suas funcionaliades, suporte e comunidade, além de trazer diversos benefícios do vi como sua simplicidade e leveza.
+
+O VIM trouxe um conceito de plugins e customização de atalhos, fazendo com que pudesse ser altamente customizável utilizando o chamado "Vim Script". Para editar um arquivo utilizando o VIM basta usar o comando `vim nome_do_seu_arquivo`. Geralmente o VIM pode estar instalado por padrão em diversas distribuições.
+
+> Existem diversos editores de texto baseados no VIM que são muito famosos e intuitivos também, como o <a href="https://neovim.io/">Neovim</a>, que pode ser customizado utilizando tanto o Vim Script quanto linguagens como Lua para manusear melhor as configurações.
+
+Os comandos são os mesmos do vi para salvar e sair, além de possuir outras funcionalidades parecidas!
+
+<img src="../img/vim.jpg" alt="Editor de texto VIM">
