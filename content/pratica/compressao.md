@@ -40,3 +40,76 @@ ou
 # tar xvzf compact.tar.gz -C .
 ```
 > Para especificar onde será salvo o arquivo extraído, podendo alterar o ponto "." para o diretório que deseja.
+
+## gzip e gunzip
+
+Para uma real compressão de dados, podemos dizer que uma das ferramentas mais utilizadas é o gzip, que utiliza um algoritmo de compressão conhecido como Lempel-Ziv, encontrando caracteres duplicados nos dados de entrada e organizando as ocorrências utilizando ponteiros para a referência anterior. Para compactar um único arquivo utilizando o gzip:
+
+```sh
+$ gzip arquivo.txt
+```
+
+Para descompactar um arquivo utilize:
+
+```sh
+$ gzip -d arquivo.txt.gz
+```
+
+ou
+
+```sh
+$ gunzip arquivo.txt.gz
+```
+> Perceba que a ferramenta é responsável com comprimir apenas arquivos, por isso, há a necessidade de utilizar o comando tar para comprimir diretórios e o gzip para a compressão deste arquivo gerado.
+
+## bzip2 e bunzip2
+
+O bzip2 é utilizado para compactações utilizando o algoritmo de Burrows-Wheeler e Huffman, sendo excelente para blocos de dados grandes, na qual quanto maior for o bloco, maior será a taxa de compressão atingida, sendo considerado melhor que os compressores comuns. 
+
+Para compactar um arquivo:
+
+```sh
+$ bzip2 arquivo.txt
+```
+
+Para descompactar um arquivo:
+
+```sh
+$ bzip2 -d arquivo.txt.bz2
+```
+
+ou 
+
+```sh
+$ bunzip2 arquivo.txt.bz2
+```
+
+## xz
+
+O xz é outro compressor de dados, utilizando um algoritmo parecido com o do gzip, produzindo arquivos com a extensão ".xz" ou ".lzma".
+
+Para compactar utilizando xz:
+
+```sh
+$ xz arquivo.txt
+```
+
+Para descompactar utilizando o xz:
+
+```sh
+$ xz -decompress arquivo.txt.xz
+```
+
+Caso queira estudar um pouco mais sobre compactação e compressão de arquivos no Linux, acesse o guia do site [Certificação Linux](https://www.certificacaolinux.com.br/compactadores-de-arquivos-no-linux/)!
+
+---
+
+Ótimo! Agora que já aprendemos como funciona a compactação e compressão de arquivos utilizando algumas ferramentas disponibilizadas no Linux, o que acha de entendermos como funciona a combinação de comandos no nosso interpretador de shell?
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/pratica/combinacao.md">Próximo -> Combinação</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
