@@ -72,3 +72,4 @@ echo "Oi $nome"
 ```
 > As aspas duplas permitem a invocação de variáveis em seu conteúdo, enquando as aspas simples não.
 
+Certo, mas e se eu estivesse esperando o usuário digitar o nome dele? Simples! Basta utilizar o comando `read`!
