@@ -99,3 +99,42 @@ echo -e "LS 1:\n$ls1\n\nLS 2:\n$ls2"
 
 Podemos utilizar tanto "$(comandos aqui)" quanto "``` `comandos aqui` ```" (crase)!
 
+## Tomada de decisão
+
+As tomadas de decisão são bem comuns quando falamos de programação em si, afinal, quem nunca utilizou um comando chamado "if"? Sua importância é extrema, por isso, veja como é a estrutura de um simples "if" em shell script:
+
+```sh
+#!/bin/bash
+
+echo "Informe o número 1: "
+read n1
+echo "Informe o número 2: "
+read n2
+
+if [ $n1 -gt $n2 ]; then
+        echo "Número 1 é maior que o número 2!"
+elif [ $n1 -eq $n2 ]; then
+        echo "Número 1 é igual o número 2!"
+else
+        echo "Número 1 é menor que o número 2!"
+fi
+```
+
+Primeiramente vamos pedir para o usuário informar dois números, logo depois começamos o comando "if" que respeita a estrutura `if [ condição ]; then` (sendo essencial este ponto e vírgula e este espaço entre os colchetes), seguido do comando "elif" que seria nada mais que o "else if" que estamos habituados, finalizando com um "else" e um "fi" para indicar a finalização da estrutura deste "if".
+
+Percebeu que não utilizei símbolos nas comparações, mas, letras que se parecem com parâmetros? Pois é, desta forma comparamos valores em shell script!
+
+### Lista de "símbolos"
+- `[ n $string ]`: comprimento da string é diferente de 0;
+- `[ z $string ]`: comprimento da string é igual a 0;
+- `[ $string1 = $string2 ]`: string1 é igual a string2;
+- `[ $string1 != $string2 ]`: string1 é diferente da string2;
+- `[ $int1 -eq $int2 ]`: int1 é igual int2 (válido para números) - "-eq" seria uma abreviação de "equals";
+- `[ $int1 -ne $int2 ]`: int1 não é igual int2 (válido para números) - "-ne" seria uma abreviação de "not equals";
+- `[ $int1 -gt $int2 ]`: int1 é maior que int2 (válido para números) - "-gt" seria uma abreviação de "greater than";
+- `[ $int1 -ge $int2 ]`: int1 é maior ou igual int2 (válido para números) - "-ge" seria uma abreviação de "greater or equal";
+- `[ $int1 -lt $int2 ]`: int1 é menor que int2 (válido para números) - "-lt" seria uma abreviação de "lower than";
+- `[ $int1 -le $int2 ]`: int1 é menor ou igual int2 (válido para números) - "-le" seria uma abreviação de "lower or equal";
+- `[ e $nomearquivo ]`: verifica se um arquivo existe;
+- `[ d $diretorio ]`: verifica se valor informado é um diretório;
+- `[ f $arquivo ]`: verifica se o arquivo é um arquivo regular (texto, imagem, programa);
