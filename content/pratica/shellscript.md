@@ -99,7 +99,7 @@ echo -e "LS 1:\n$ls1\n\nLS 2:\n$ls2"
 
 Podemos utilizar tanto "$(comandos aqui)" quanto "``` `comandos aqui` ```" (crase)!
 
-## Tomada de decisão
+## Tomada de decisão com IF
 
 As tomadas de decisão são bem comuns quando falamos de programação em si, afinal, quem nunca utilizou um comando chamado "if"? Sua importância é extrema, por isso, veja como é a estrutura de um simples "if" em shell script:
 
@@ -138,3 +138,110 @@ Percebeu que não utilizei símbolos nas comparações, mas, letras que se parec
 - `[ e $nomearquivo ]`: verifica se um arquivo existe;
 - `[ d $diretorio ]`: verifica se valor informado é um diretório;
 - `[ f $arquivo ]`: verifica se o arquivo é um arquivo regular (texto, imagem, programa);
+
+## Tomada de decisão com case
+
+Ainda comentando sobre tomada de decisão, podemos utilizar o "case", que aborda de uma maneira um pouco diferente o funcionamento de condições.
+
+```sh
+#/bin/bash
+
+echo "Digite 1, 2 ou 3: "
+read opc
+
+case $opc in
+	"1")
+		echo "Você digitou 1! O primeiro número ímpar natural!"
+	;;
+	"2")
+		echo "Você digitou 2! O único número primo que é par!"
+	;;
+	"3")
+		echo "Você digitou 3! O primeiro número primo ímpar!"
+	;;
+	*)
+		echo "O número digitado não está respeitando a condição!"
+	;;
+esac
+```
+
+O exemplo acima demonstra como pode ser feito o uso do "case" em shell script, na qual o "break" seria os dois sinais de ponto e vírgula (";;"), e o asterisco ("`*`") seria o "default"!
+
+## For
+
+O comando "for" é utilizado para realizar um loop determinando uma variável que funcionará como contadora e uma condição a ser satisfeita, sendo um exemplo de laço convencional.
+
+A estrutura do "for" em shell script lembra de diversas outras linguagens, por isso, acredito que se você já tenha tido contato com outras linguagens, você vai compreender facilmente!
+
+```sh
+for var1 in val1, val2 … valN; do
+        código aqui
+done
+```
+
+Um exemplo prático imprimindo os números de 1 até 10 seria:
+
+```sh
+#!/bin/bash
+
+for i in {1..10}; do
+    echo $i
+done
+```
+
+Perceba que não utilizamos parênteses, apenas um "in" e depois definimos a faixa para que o laço funcione (bem parecido com linguagens como Python, por exemplo).
+
+## While
+
+Outro tipo de laço muito popular é o "while", que executa tudo que existe em seu conteúdo enquanto uma condição é satisfeita. A estrutura do "while" em shell script é bem simples, veja:
+
+```sh
+while [ condição ]; do
+        código
+done
+```
+
+Um exemplo prático para imprimir os números de 1 até 10 seria:
+
+```sh
+#!/bin/bash
+
+i=1
+
+while [ $i -lt 11 ]; do
+    echo $i
+
+    ((i=$i+1))
+done
+```
+> A parte em que temos `((i=$i+1))` demonstra como seria o incremento de valor 1 na variável i, o mesmo que fazer "i++" em outras linguagens!
+
+Perceba que no caso do "while" como utilizamos colchetes, os espaços entre o início e o fim dos colchetes ainda existe, assim como no "if"!
+
+## Funções
+
+O uso de funções em shell script possibilita que trechos de nosso código sejam reutilizáveis, tornando um código mais organizado e limpo! O uso de funções em shell script é bem interessante, mas, a passagem de parâmetros é algo para se atentar, veja o exemplo abaixo que realiza a soma de dois valores:
+
+```sh
+#!/bin/bash
+
+soma(){
+    result=$(($1+$2))
+
+    echo "O resultado da soma é: $result!"
+}
+
+echo "Informe o valor do número 1: "
+read n1
+echo "Informe o valor do número 2: "
+read n2
+
+soma $n1 $n2
+```
+
+Perceba que nos parênteses da função não foi declarado nenhum nome para variáveis, o motivo é: os parâmetros chegam da mesma maneira como chegariam se fossem comandos! Cada parâmetro adicionado em um comando chega com o sinal de cifrão ("$1") seguido da ordem do parâmetro!
+
+Basicamente: o parâmetro chega na função com a variável sendo o número da posição daquele parâmetro, começando do 1!
+
+Caso queira estudar um pouco mais sobre o funcionamendo do shell script e se aprofundar sobre como utilizar ele de maneira única, acesse o site do [DevMedia](https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778)!
+
