@@ -57,6 +57,7 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [Compressão](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/compressao.md)
   - [Combinação](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/combinacao.md)
   - [Shell Script](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/shellscript.md)
+- [Administração](https://github.com/lanjoni/lpi4noobs/tree/main/content/administracao)
   
  
 <!-- CONTRIBUTING -->
