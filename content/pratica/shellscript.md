@@ -73,3 +73,29 @@ echo "Oi $nome"
 > As aspas duplas permitem a invocação de variáveis em seu conteúdo, enquando as aspas simples não.
 
 Certo, mas e se eu estivesse esperando o usuário digitar o nome dele? Simples! Basta utilizar o comando `read`!
+
+```sh
+#!/bin/bash
+
+echo "Digite seu nome: "
+read nome
+
+echo "Oi $nome"
+```
+
+## Manipulação de valores
+
+Seria possível o resultado de algum comando ser igualado ao valor de uma variável? A resposta é: sim. Veja um exemplo abaixo:
+
+```sh
+#!/bin/bash
+
+ls1=$(ls -l /)
+ls2=`ls -a /`
+
+echo -e "LS 1:\n$ls1\n\nLS 2:\n$ls2"
+```
+> Parâmetro "-e" utilizado para interpretar quebras de linha e "\n" seria uma quebra de linha.
+
+Podemos utilizar tanto "$(comandos aqui)" quanto "``` `comandos aqui` ```" (crase)!
+
