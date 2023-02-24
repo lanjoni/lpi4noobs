@@ -245,3 +245,14 @@ Basicamente: o parâmetro chega na função com a variável sendo o número da p
 
 Caso queira estudar um pouco mais sobre o funcionamendo do shell script e se aprofundar sobre como utilizar ele de maneira única, acesse o site do [DevMedia](https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778)!
 
+---
+
+Ótimo! Agora que você já compreendeu sobre o funcionamento do shell script e como podemos utilizar suas funcionalidades no nosso cotidiano, o que acha de partirmos para um novo tópico? O tópico de administração de um sistema operacional Linux!
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/administracao">Próximo -> Administração</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
