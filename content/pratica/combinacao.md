@@ -94,3 +94,16 @@ O exemplo abaixo vai substituir todo o conteúdo do arquivo deixando apenas o te
 $ echo "oie" > lorem.txt
 ```
 
+Caso queira estudar um pouco mais sobre compactação e compressão de arquivos no Linux, acesse o guia do site [Certificação Linux](https://www.certificacaolinux.com.br/compactadores-de-arquivos-no-linux/)!
+
+---
+
+Excelente! Já aprendemos como podemos combinar uma série de comandos e fazer com que estas combinações sejam otimizadas! O que acha de entrarmos um pouco no que seria a estrutura de um script chamado "Shell Script?"
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/pratica/shellscript.md">Próximo -> Shell Script</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
