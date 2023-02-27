@@ -10,6 +10,8 @@ Os tópicos a serem comentados foram apontados no menu principal de acordo com a
 
 Todo este projeto foi desenhado se baseando em minhas experiências pessoais e de pessoas que puderam tornar meu contato com o software livre possível, por isso gostaria de inicialmente agradecer por dois principais professores que tornaram essa jornada possível: Cristiane Paschoali de Oliveira Vidovix e Ubiratan Zakaib do Nascimento, ambos professores e amantes de software livre do Instituto Federal de São Paulo - Campus Votuporanga.
 
+Agradeço imensamente meu mestre, sensei e poderosíssimo João Falcão, que possibilitou que toda esta jornada fosse possível, ensinando a maior parte de tudo que eu sei hoje quando o assunto é desenvolvimento utilizando Shell Script, Linux e containerização. Só tenho a agradecer por ter pessoas tão maravilhosas assim em minha vida.
+
 ## Próximos capítulos
 
 Nos próximos capítulos iremos abordar o início do movimento do software livre e como se aplica em nosso cotidiano, afinal, a tecnologia que conhecemos hoje não seria possível se todo este movimento não tivesse acontecido, por isso, no decorrer de nosso caminho vamos abordar diversos nomes importantes, que, neste caso, não é de obrigatoriedade que você se lembre de todos (ainda mais pra certificação em si), mas, é um mérito de todos que lutaram por estas causas e fizeram com que a tecnologia pudesse ser cada vez mais acessível, até chegar no que conhecemos hoje.
