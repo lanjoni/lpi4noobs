@@ -58,6 +58,7 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [Combinação](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/combinacao.md)
   - [Shell Script](https://github.com/lanjoni/lpi4noobs/tree/main/content/pratica/shellscript.md)
 - [Administração](https://github.com/lanjoni/lpi4noobs/tree/main/content/administracao)
+  - [Processos](https://github.com/lanjoni/lpi4noobs/tree/main/content/administracao/processos.md)
   
  
 <!-- CONTRIBUTING -->
