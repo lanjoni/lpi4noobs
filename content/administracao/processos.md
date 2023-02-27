@@ -163,6 +163,8 @@ $ pkill nome
 
 Assim conseguimos manipular de uma forma mais prática os processos que tenham filhos!
 
+Quer estudar e se aprofundar um pouco mais sobre o funcionamento de processos dentro de nosso sistema operacional? Acesse a publicação do [Certificação Linux](https://www.certificacaolinux.com.br/trabalhando-com-processos-no-linux/)!
+
 ---
 
 Gostou de entender melhor o funcionamento de processos em nosso sistema operacional Linux? O que acha de aprendermos um pouco mais sobre a manipulação de usuários em nosso ambiente?
