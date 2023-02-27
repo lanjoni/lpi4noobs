@@ -20,3 +20,22 @@ No Linux temos mais de 30 sinais de processos definidos, sendo a maioria definid
 | KILL  | 9              | Finaliza o processo de forma rápida, podendo deixar arquivos corrompidos (caso estejam abertos), sendo necessária muita cautela ao se utilizar.                                 |
 | TERM  | 15             | Finaliza o processo de uma forma mais "calma", permitindo que termine as execuções pendentes de um processo para que então possa finalizá-lo.                                   |
 | TSTP  | 20             | Finaliza a execução para continuar depois, enviado automaticamente quando utilizamos as teclas de comando "CTRL" + "Z", para reverter modificações.                             |
+
+## Comandos para visão específica
+
+Agora vamos conhecer alguns comandos que são utilizados para visualizações de tipos de processo específicos, por isso essa nova área!
+
+### jobs
+
+Este comando é responsável por listar os processos que estão em execução em segundo plano. O comando `jobs -l` lista o PID (Process Identifier) dos processos em execução! 
+
+### bg
+
+Com este comando podemos colocar em segundo plano determinados processos que se encontram em execução! 
+
+### fg
+
+Neste comando temos um papel totalmente contrário ao comando "bg", afinal, com o "fg" colocamos a tarefa em primeiro plano, ligando-a em um terminal!
+
+### nohup
+
