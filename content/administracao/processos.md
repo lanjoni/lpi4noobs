@@ -39,3 +39,10 @@ Neste comando temos um papel totalmente contrário ao comando "bg", afinal, com 
 
 ### nohup
 
+Com o "nohup" conseguimos executar qualquer outro comando sem a necessidade de atrelá-lo a nenhum terminal, sendo imune a travamentos, quedas de conexão e desconexões propositais.
+
+Ele pode ser útil para executar aplicações e armazenar os retornos de "logs" em um novo arquivo de texto, porque assim nenhum usuário teria "acesso" para ver seus logs em tempo real!
+
+## Comandos para modificar prioridade de execução
+
+Como dito anteriormente, não podemos simplesmente definir que todos os processos devam funcionar com o mesmo grau de prioridade sempre, afinal, existem "tarefas mais importantes que outras", correto? Dessa necessidade surgiram comandos que possibilitassem a modificação de prioridades de execução de maneira fácil e prática!
