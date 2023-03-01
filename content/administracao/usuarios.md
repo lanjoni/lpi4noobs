@@ -60,3 +60,27 @@ Como dito anteriormente, existe a necessidade de termos permissões iguais para 
 > Um detalhe importante: se você utiliza o comando "sudo" ou então possui o "docker" instalado em sua máquina, por exemplo, você provavelmente faz parte de um grupo chamado "wheel" para que tenha acesso ao "sudo", além de um grupo chamado "docker" para acesso ao docker em si!
 
 Diversas aplicações separam suas funcionalidades entre grupos de usuários, fazendo com que certas tarefas só possam ser executadas por determinados usuários, sendo esta separação de privilégios feita por grupos!
+
+## Permissões para grupos
+
+Como já estudamos no tópico de permissionamento, existem diversas formas para definir os privilégios que cada usuário terá em nosso sistema, valendo também para grupos, mas, existe um comando específico, definindo a propriedade de grupo em um diretório! Isto significa que todos os usuários daquele determinado grupo possuem acesso neste diretório. Veja um exemplo abaixo:
+
+```
+# setfacl -m g:operadores:rwx -R /caminho_de_diretorio
+```
+> Com este comando garantimos permissão para leitura (**r**), escrita (**w**) e execução (**x**) naquele diretório!
+
+Assim, conseguimos manusear melhor as permissões de diretórios para nosso grupo!
+
+## Apagando grupos
+
+Talvez, por algum motivo específico, você precise ainda apagar algum grupo, por isso, existe um comando bem simples para este uso, veja:
+
+```
+# groupdel nome_do_grupo
+```
+
+Assim, apagaremos o grupo de forma simples e direta!
+
+Caso você queira estudar um pouco mais sobre como podemos gerenciar usuários dentro de nosso sistema operacional Linux, acesse a página do [E-tinet](https://e-tinet.com/linux/gerenciar-usuarios-linux/)!
+
