@@ -84,3 +84,14 @@ Assim, apagaremos o grupo de forma simples e direta!
 
 Caso você queira estudar um pouco mais sobre como podemos gerenciar usuários dentro de nosso sistema operacional Linux, acesse a página do [E-tinet](https://e-tinet.com/linux/gerenciar-usuarios-linux/)!
 
+---
+
+Então, o que achou de aprender um pouco mais sobre como podemos administrar nossos usuários? Vamos conhecer um pouco mais sobre redes em sistemas operacionais Linux?
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/administracao/redes.md">Próximo -> Redes</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
