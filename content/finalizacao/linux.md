@@ -24,4 +24,24 @@ Se fosse pra classificar o grau de parentesco do Linux com estes dois sistemas, 
 
 ## Linux no desktop
 
-Existem diversas formas de utilizarmos sistemas operacionais Linux, inclusive em nosso desktop para diversas atividades que envolvem práticas de infraestrutura, desenvolvimento de software, estudos de módulos, entre diversas aplicações. Linux está em todo lugar (vamos falar um pouco sobre isso no próximo capítulo), trabalhar com Linux **é** mais seguro por diferentes situações, **é** mais customizável para cada tipo de uso, afinal, você como desenvolvedor pode constribuir e constribuir aplicações como quiser
+Existem diversas formas de utilizarmos sistemas operacionais Linux, inclusive em nosso desktop para diversas atividades que envolvem práticas de infraestrutura, desenvolvimento de software, estudos de módulos, entre diversas aplicações. Linux está em todo lugar (vamos falar um pouco sobre isso no próximo capítulo), trabalhar com Linux **é** mais seguro por diferentes situações, **é** mais customizável para cada tipo de uso, afinal, você como desenvolvedor pode construir e contribuir aplicações como quiser, além de ser um ambiente excelente para novas experiências!
+
+Geralmente vemos diversas pessoas reclamando do uso de um sistema operacional em seu cotidiano, mas, muitas das vezes estes problemas de uso podem partir de uma falta de interesse ou costume em sair um pouco do habituado! Utilizar um sistema operacional diferente não é difícil, só é diferente, são modos diferentes!
+
+Claro que existem diversas atividades que impossibilitam o uso de um sistema operacional, isto é compreensível, mas saiba que aprender coisas novas é sempre algo bom! Ah, nada impede também a criação de máquinas virtuais para testes e uso específico!
+
+## Semelhanças com o macOS
+
+Por ambos serem sistemas baseados no Unix, uma série de comandos e processos podem ser muito parecidos em ambos sistemas operacionais, como por exemplo comando simples de movimentação e edição utilizando o terminal, comandos para gerenciamento do sistema, entre outros diversos aspectos!
+
+---
+
+Agora que você entendeu um pouco melhor sobre as principais diferenças entre estes sistemas operacionais, o que acha de vermos algumas curiosidades sobre o uso de Linux?
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/finalizacao/curiosidades.md">Próximo -> Curiosidades</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
