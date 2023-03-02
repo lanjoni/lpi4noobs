@@ -99,4 +99,24 @@ O comando acima adiciona uma rota de comunicação do dispositivo na rede local!
 
 ## Traçar rotas
 
-Certo, mas, como podemos visualizar todo o caminho de rotas traçadas em uma rede? Simples! Com o comando `traceroute` podemos verificar todo 
+Certo, mas, como podemos visualizar todo o caminho de rotas traçadas em uma rede? Simples! Com o comando `traceroute` podemos verificar todos os endereços acessados pela nossa máquina até chegarmos no destino desejado! Isto é incrível não? Veja como podemos testar:
+
+```sh
+$ traceroute google.com
+```
+
+O retorno apresentado mostrará a ordem de acesso!
+
+Existem ainda diversos comandos para caso você queira explorar um pouco mais sobre o funcionamento das redes de computadores em sistemas operacionais Linux, por isso, recomendo a leitura da publicação sobre no site [Dicas de Infra](https://dicasdeinfra.com.br/13-comandos-para-gerenciar-rede-no-linux/)!
+
+---
+
+Me diz aí, o que achou de entender um pouco melhor sobre o funcionamento das redes? O que acha de partirmos para nossos últimos tópicos? Sim, a finalização do nosso guia está chegando!
+
+<p align="right">
+  <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/finalizacao">Próximo -> Finalização</a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/lanjoni/lpi4noobs#roadmap">Voltar para o menu principal</a>
+</p>
