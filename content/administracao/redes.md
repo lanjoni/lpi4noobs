@@ -39,3 +39,40 @@ Teremos uma resposta parecida com:
 ```
 
 O retorno mostrado acima mostra o tempo de resposta de um site em "ms", mostrando também a quantidade de pacotes que foram transmitidos e recebidos, assim, analisando nossa perda de pacote também!
+
+## Configurações de rede
+
+Para visualizar, gerenciar e controlar nossas interfaces de rede ativas podemos utilizar o comando `ifconfig`! Pode ser que em sua distribuição o comando já não venha por padrão mais por ter sido substituído, mas, para que possamos utilizar dele basta instalar o pacote "net-tools". Veja um exemplo abaixo:
+
+```sh
+$ ifconfig
+```
+
+Ao executar teremos uma resposta parecida com:
+
+```sh
+eth0: flags=4000<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 111.22.333.444  netmask 255.255.255.0  broadcast 111.22.333.555
+        inet6 fefe::fefe:fefe:fefe:fefe  prefixlen 64  scopeid 0x20<link>
+        ether 00:11:00:ff:88:ff  txqueuelen 1000  (Ethernet)
+        RX packets 200  bytes 216916 (216.9 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 100  bytes 10000 (10 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+```
+
+Os dados mostrados acima, por exemplo, mostram alguns dados de uma interface com nome "eth0", trazendo diversas informações úteis para configurações específicas em um servidor. Caso queira visualizar **todas** as interfaces de rede adicione a opção "-a" ao comando!
+
+### ifup e ifdown
+
+Caso tenha uma interface de rede que está inativa, mas, precisa ligar ela, utilize o seguinte comando:
+
+```
+# ifup nome_da_interface
+```
+
+Agora, caso queira desligar uma interface de rede utilize o comando:
+
+```
+# ifdown nome_da_interface
+```
