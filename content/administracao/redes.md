@@ -76,3 +76,27 @@ Agora, caso queira desligar uma interface de rede utilize o comando:
 ```
 # ifdown nome_da_interface
 ```
+
+Tome muito cuidado ao trabalhar com as interfaces de rede!
+
+## Rotas
+
+Podemos dizer que as rotas são como "caminhos a se seguir em uma rede para determinado destino", assim como caminhos reais. Geralmente a troca de informação entre computadores não ocorre de forma direta, sendo necessário a existência de máquinas intermediárias, por isso traçamos as rotas para visualizar os possíveis caminhos para uma localização.
+
+Para visualizar as rotas ativas em sua máquina podemos utilizar o seguinte comando:
+
+```sh
+$ route -n
+```
+
+O comando `route` também pode ser utilizado para se adicionar uma nova rota estática, veja o exemplo abaixo:
+
+```sh
+$ route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.1.1
+```
+
+O comando acima adiciona uma rota de comunicação do dispositivo na rede local!
+
+## Traçar rotas
+
+Certo, mas, como podemos visualizar todo o caminho de rotas traçadas em uma rede? Simples! Com o comando `traceroute` podemos verificar todo 
