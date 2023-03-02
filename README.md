@@ -61,6 +61,7 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [Processos](https://github.com/lanjoni/lpi4noobs/tree/main/content/administracao/processos.md)
   - [Usuários](https://github.com/lanjoni/lpi4noobs/tree/main/content/administracao/usuarios.md)
   - [Redes](https://github.com/lanjoni/lpi4noobs/tree/main/content/administracao/redes.md)
+- [Finalização](https://github.com/lanjoni/lpi4noobs/tree/main/content/finalizacao)
   
  
 <!-- CONTRIBUTING -->
