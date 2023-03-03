@@ -29,3 +29,8 @@ Obrigado vó e vô, que por mais que não possam ver isso, saiba que amo vocês 
 Obrigado por tudo.
 
 *Da comunidade para a comunidade. 💜*
+
+---
+
+### *Redes sociais*
+<a href="https://twitter.com/gutolanjoni"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/gutolanjoni?style=social"></a> <a href="https://hachyderm.io/@guto"><img alt="Mastodon" src="https://img.shields.io/mastodon/follow/109311170655551921?domain=https%3A%2F%2Fhachyderm.io&style=social"></a> <a href="https://twitch.tv/gutolanjoni"><img alt="Twitch Status" src="https://img.shields.io/twitch/status/gutolanjoni?style=social"></a> <a href="https://www.reddit.com/user/gutolanjoni/"><img alt="Reddit" src="https://img.shields.io/reddit/user-karma/combined/gutolanjoni?style=social"></a>
