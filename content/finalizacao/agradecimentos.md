@@ -14,6 +14,8 @@ Obrigado ao Daniel e toda a equipe de moderação da He4rt por aprovar este guia
 
 Obrigado aos meus colegas do IFSP, que sempre me apoiaram em todos os momentos difíceis, sempre me apoiaram em cada segundo que sequer eu imaginava precisar realmente de um pouco do que eles tinham oferecer: a mais pura compreensão e amizade.
 
+Obrigado ao Carlos, Fabrício e Marcelo por me apoiarem todos os dias, servirem como auxílio nos meus momentos mais difíceis e me ajudarem tanto em tantos momentos, vocês são muito especiais e tem o meu coração.
+
 Obrigado à todos os professores do campus do IFSP de Votuporanga, por me proporcionarem materiais de estudo, disponibilizarem de horas dos dias deles para trazer um pouco do aprendizado que eles possuem.
 
 Obrigado aos professores Ubiratan Zakaib do Nascimento, Cristiane Paschoali Vidovix e Eder Pansani, membros do Núcleo de Desenvolvimento Livre do IFSP. Todos são minhas inspirações diárias quando falamos de educação, ensino e software livre.
@@ -21,3 +23,9 @@ Obrigado aos professores Ubiratan Zakaib do Nascimento, Cristiane Paschoali Vido
 Obrigado ao meu mestre João Monteiro Falcão, por me ensinar como a tecnologia pode mudar a vida das pessoas, ensinar sobre o poder de uma linha de código e como isso pode fazer a diferença, mudando a minha vida completamente.
 
 Obrigado à minha família, meus pais Anderson e Juliane, meu irmão e melhor amigo João Ricardo, minha amada Sofia, por me aguentarem todos os dias teclando nesse teclado e fazendo minhas maluquices com o terminal.
+
+Obrigado vó e vô, que por mais que não possam ver isso, saiba que amo vocês do fundo meu coração.
+
+Obrigado por tudo.
+
+*Da comunidade para a comunidade. 💜*
