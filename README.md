@@ -62,6 +62,10 @@ Os pontos abordados serão focados em sua certificação, por isso, saiba que to
   - [Usuários](https://github.com/lanjoni/lpi4noobs/tree/main/content/administracao/usuarios.md)
   - [Redes](https://github.com/lanjoni/lpi4noobs/tree/main/content/administracao/redes.md)
 - [Finalização](https://github.com/lanjoni/lpi4noobs/tree/main/content/finalizacao)
+  - [Linux, Windows e macOS](https://github.com/lanjoni/lpi4noobs/tree/main/content/finalizacao/linux.md)
+  - [Curiosidades](https://github.com/lanjoni/lpi4noobs/tree/main/content/finalizacao/curiosidades.md)
+  - [Certificação](https://github.com/lanjoni/lpi4noobs/tree/main/content/finalizacao/certificacao.md)
+  - [Agradecimentos](https://github.com/lanjoni/lpi4noobs/tree/main/content/finalizacao/agradecimentos.md)
   
  
 <!-- CONTRIBUTING -->
