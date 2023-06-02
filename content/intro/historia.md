@@ -50,7 +50,7 @@ Em março de 1994 a primeira versão estável foi publicada (a chamada versão 1
 
 Diversos componentes do kernel Linux foram distribuídos sob licença GNU GPL, e esta falta de um núcleo completo livre havia finalizado para o projeto GNU publicar seu sistema operacional GNU/Linux, no qual Linus Torvalds havia completado.
 
-Torvalds disse que não queria dinheiro por uma série de razões, mas, que seu principal intuito era pelo sentimento de que estava "seguindo os passos de centenas de ciencistas e acadêmicos", afinal, as pessoas contruíram seu trabalho "apoiando-se nos ombros de gigantes".
+Torvalds disse que não queria dinheiro por uma série de razões, mas, que seu principal intuito era pelo sentimento de que estava "seguindo os passos de centenas de cientistas e acadêmicos", afinal, as pessoas contruíram seu trabalho "apoiando-se nos ombros de gigantes".
 
 Em 1992 surgiram as primeiras distribuições GNU/Linux como SLS que posteriormente se tornou Slackware (que ainda tem suporte até os dias atuais). Em 1993 tivemos a distribuição Debian sendo lançada com apoio da FSF, iniciada por Ian Murdock e tem suporte até os dias atuais, servindo como base de diversas outras como Ubuntu, Mint, entre outras.
 
