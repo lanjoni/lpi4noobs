@@ -2,11 +2,11 @@
 
 Uma das coisas mais interessantes sobre o mundo Linux é entender o funcionamento de distribuições. 
 
-Uma distribuição Linux é um sistema operacional completo, contendo o Kernel Linux, pacotes específicos do projeto GNU, além de um gerenciador de pacotes. As distribuições podem ser independentes (surgindo sem se basear em outra) ou podem ser baseadas em outras distribuições. Um exemplo de distribuição independente que podemos citar é o Debian, no qual possui o Ubuntu como uma distribuição baseada. Existem diversas distribuiçõe. Esta alta gama de possibilidades de uso faz com que sejam tão amigáveis para cada usuário em específico. Por isso, vamos conhecer algumas delas.
+Uma distribuição Linux é um sistema operacional completo, contendo o Kernel Linux, pacotes específicos do projeto GNU, além de um gerenciador de pacotes. As distribuições podem ser independentes (surgindo sem se basear em outra) ou podem ser baseadas em outras distribuições. Um exemplo de distribuição independente que podemos citar é o Debian, no qual possui o Ubuntu como uma distribuição baseada. Existem diversas distribuições. Esta alta gama de possibilidades de uso faz com que sejam tão amigáveis para cada usuário em específico. Por isso, vamos conhecer algumas delas.
 
 ## Slackware <img align="right" width="100" src="../img/slackware.png" alt="Logo distribuição Slackware">
 
-Famoso por ser a distribuição mais antiga e conhecida, sendo ainda mantida em atividade pela comunidade e pelo seu criador Patrick Volkerding, o Slackware é uma distribuição Linux independente, surgindo em 16 de juhlo de 1993, com gerenciador de pacotes "Slackpkg". Seu nome surgiu de uma sátira enfatizando "slack" como senso de liberdade, na qual poderíamos traduzir como "preguiça". 
+Famoso por ser a distribuição mais antiga e conhecida, sendo ainda mantida em atividade pela comunidade e pelo seu criador Patrick Volkerding, o Slackware é uma distribuição Linux independente, surgindo em 16 de julho de 1993, com gerenciador de pacotes "Slackpkg". Seu nome surgiu de uma sátira enfatizando "slack" como senso de liberdade, na qual poderíamos traduzir como "preguiça". 
 
 Uma curiosidade sobre a distribuição é que em seus anúncios de versões não tivemos uma versão 5.x ou 6.x, da versão 4.0 pulamos para a versão 7.0.
 

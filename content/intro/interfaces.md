@@ -6,7 +6,7 @@ O uso de interfaces gráficas é o que muitas das vezes caracteriza cada distrib
 
 Surgindo em 3 de março de 1999, o ambiente de trabalho e interface gráfica é mantido pelo Projeto GNOME, mas, foi originalmente criado em 15 de agosto 1997 pelos mexicanos Miguel de Icaza e Federico Mena Quintero, como uma "resposta" ao Windows 95, aprimorando o GTK, um conjunto de ferramentas usado pelo editor de imagens GIMP.
 
-Atualmente o GNOME está em sua versão estável 43, sem escolhido por diversas distribuições como interface gráfica padrão, tais como Ubuntu e Fedora por exemplo.
+Atualmente o GNOME está em sua versão estável 43, sendo escolhido por diversas distribuições como interface gráfica padrão, tais como Ubuntu e Fedora por exemplo.
 
 <figure align="center">
   <img src="../img/gnome_wpp.png">
@@ -15,7 +15,7 @@ Atualmente o GNOME está em sua versão estável 43, sem escolhido por diversas 
 
 ## KDE <img align="right" width="100" src="../img/kde.png" alt="Logo KDE">
 
-Originalmente uma comunidade internacional de software livre fundada em 14 de outubro de 1996, o KDE produz um conjunto de aplicativos além da interface gráfica Plasma multiplataforma tão querida por muitos, incluindo softwares projetados para funcionar em distribuições Linux, FreeBSD, Solaris, Microsoft Windows e até mesmo Apple macOS e Mac OS X. O KDE e seus aplicativos são escritos como framework Qt.
+Originalmente uma comunidade internacional de software livre fundada em 14 de outubro de 1996, o KDE produz um conjunto de aplicativos além da interface gráfica Plasma multiplataforma tão querida por muitos, incluindo softwares projetados para funcionar em distribuições Linux, FreeBSD, Solaris, Microsoft Windows e até mesmo Apple macOS e Mac OS X. O KDE e seus aplicativos são escritos com o framework Qt.
 
 KDE era uma sigla inglesa para "K Desktop Environment", sendo o "K" escolhido por ser a letra anterior a "L" de Linux, mas, em 2009 deixaram o nome por extenso e passou a ser chamada simplesmente de "KDE". Matthias Ettrich é o fundador do KDE.
 
@@ -52,7 +52,7 @@ Utilizando a biblioteca GTK+3 desde a versão 1.18, atualmente estamos na versã
 
 ## Bônus
 
-Existem ainda diversas interfaces gráficas que podem ser instaladas, assim como ambientes que possuem apenas gerenciadores de janelas, os famosos *tilling window managers* ou *dynamic window managers*, como é o caso dos projetos <a href="https://i3wm.org/">i3wm</a> e <a href="https://dwm.suckless.org/">dwm</a> por exemplo.
+Existem ainda diversas interfaces gráficas que podem ser instaladas, assim como ambientes que possuem apenas gerenciadores de janelas, os famosos *tiling window managers* ou *dynamic window managers*, como é o caso dos projetos <a href="https://i3wm.org/">i3wm</a> e <a href="https://dwm.suckless.org/">dwm</a> por exemplo.
 
 Não irei entrar em muitos detalhes, mas, recomendo darem uma lida depois de como é seu funcionamento e produtividade, além de serem extremamente leves.
 
