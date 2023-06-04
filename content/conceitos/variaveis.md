@@ -39,7 +39,7 @@ Perceba que para utilizarmos alguma variável de shell necessariamente precisamo
 
 ## Criando uma variável de ambiente
 
-Agora vamos criar uma variável de ambiente: exporando nossa variável de shell criada anteriormente, veja o exemplo abaixo com o comando `export`:
+Agora vamos criar uma variável de ambiente: explorando nossa variável de shell criada anteriormente, veja o exemplo abaixo com o comando `export`:
 
 ```sh
 $ export VAR
@@ -56,7 +56,7 @@ Caso queira mais detalhes para se aprofundar neste assunto: recomendo a <a href=
 
 ---
 
-Agora que já implementamos e entendemos o funcionamento de variáveis de ambiente e de shell, o que acha de entendermos como é feito o permissionamnento de arquivos e o que ele pode nos mostrar?
+Agora que já implementamos e entendemos o funcionamento de variáveis de ambiente e de shell, o que acha de entendermos como é feito o permissionamento de arquivos e o que ele pode nos mostrar?
 
 <p align="right">
   <a href="https://github.com/lanjoni/lpi4noobs/blob/main/content/conceitos/permissionamento.md">Próximo -> Permissionamento</a>

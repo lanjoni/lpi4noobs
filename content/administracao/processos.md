@@ -125,7 +125,7 @@ Sendo uma mistura do comando "ps" com o comando "grep", este comando permite que
 # pgrep expressao
 ```
 
-Muito legal estas combinações de comandos, não é?
+Muito legais estas combinações de comandos, não é?
 
 ## Finalizando processos
 

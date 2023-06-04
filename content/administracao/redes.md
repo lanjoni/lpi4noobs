@@ -10,13 +10,13 @@ Para nosso compreendimento, vamos esclarecer inicialmente o que é uma rede e co
 
 Uma rede é formada quando dois ou mais computadores estão conectados, de maneira a conseguir realizar troca de informações entre si. As trocas de informações podem ser feitas de diversas formas, na qual definimos questões adicionais como meios pelos quais estas trocas ocorrem e protocolos a serem compartilhados.
 
-Cada computador possui um endereço para que possamos acessar na rede e realizar conexões, este endereço é chamado de endereço IP, podendo seguir os protocolos IPv4 ou IPv6 por exemplo. Por meio destes endereços que está a mágica de se utilizar de uma rede.
+Cada computador possui um endereço para podermos acessar na rede e realizar conexões, este endereço é chamado de endereço IP, podendo seguir os protocolos IPv4 ou IPv6 por exemplo. Por meio destes endereços que está a mágica de se utilizar de uma rede.
 
 A "internet" (como conhecemos) pode ser chamada de "rede de redes", por ser uma rede internacional de computadores. Quando acessamos um site em um navegador convencional estamos utilizando o protocolo HTTP (Hypertext Transfer Protocol) acessando uma máquina que está hospedando aquele site, na qual a conexão pode ser permitida ou interrompida de acordo com as configurações do site.
 
 Para que o site fique mais "simples e didático" de ser acessado, ao invés de utilizarmos seu endereço IP utilizamos algo chamado DNS (Domain Name System), que tem como principal tarefa "resolver nomes", isto é, dizer que um nome deve apontar para um determinado endereço IP.
 
-Não irei entrar em muitos detalhes sobre como é o funcionamento geral de uma rede, afinal, isto poderia ser um 4noobs exclusivo! Por isso, irei explicar apenas o essencial para que possamos continuar nosso aprendizado entendendo como podemos utilizar sistemas operacionais Linux em nosso cotidiano com as redes!
+Não irei entrar em muitos detalhes sobre como é o funcionamento geral de uma rede, afinal, isto poderia ser um 4noobs exclusivo! Por isso, irei explicar apenas o essencial para podermos continuar nosso aprendizado, entendendo como podemos utilizar sistemas operacionais Linux em nosso cotidiano com as redes!
 
 ## Latência
 
@@ -42,7 +42,7 @@ O retorno mostrado acima mostra o tempo de resposta de um site em "ms", mostrand
 
 ## Configurações de rede
 
-Para visualizar, gerenciar e controlar nossas interfaces de rede ativas podemos utilizar o comando `ifconfig`! Pode ser que em sua distribuição o comando já não venha por padrão mais por ter sido substituído, mas, para que possamos utilizar dele basta instalar o pacote "net-tools". Veja um exemplo abaixo:
+Para visualizar, gerenciar e controlar nossas interfaces de rede ativas podemos utilizar o comando `ifconfig`! Pode ser que em sua distribuição o comando já não venha por padrão mais por ter sido substituído, mas, para podermos utilizar dele basta instalar o pacote "net-tools". Veja um exemplo abaixo:
 
 ```sh
 $ ifconfig

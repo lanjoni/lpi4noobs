@@ -10,7 +10,7 @@ Entender sobre o uso das licenças é essencial para diferenciarmos algo que por
 
 ## Software Livre x Software de Código Aberto
 
-Uma licença que já falamos anteriormente é a licença GNU GPL (que atualmente está em sua versão 3.0), caracterizada por ser uma licença de software livre e garante para o usuário as quatro liberdades do software livre que foram comentadas anteriormente. Para garantir total liberdade de uso existe o conceito de "copyleft", do qual um software é totalmente livre de direitos autorais sobre o software, garantindo domínio público para seu uso, mas, com direitos quanto à propriedade intelectual do portador do software.
+Uma licença que já falamos anteriormente é a licença GNU GPL (que atualmente está em sua versão 3.0), caracterizada por ser uma licença de software livre e garante para o usuário às quatro liberdades do software livre que foram comentadas anteriormente. Para garantir total liberdade de uso existe o conceito de "copyleft", do qual um software é totalmente livre de direitos autorais sobre o software, garantindo domínio público para seu uso, mas, com direitos quanto à propriedade intelectual do portador do software.
 
 Uma licença de código aberto garante que o código-fonte de um software seja aberto, mas, permite custos para modificações, manutenção, entre outros serviços que podem ser prestados sob o uso do software em si, atrelados à algum determinado produto. 
 

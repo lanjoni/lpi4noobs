@@ -43,27 +43,27 @@ guto@turing:~$ cp /usr/bin/novo2.txt .
 ```
 > O ponto único "." indica o diretório atual, enquanto os dois pontos ".." indicam o diretório anterior.
 
-Para copiar diretórios utilizamos a mesma estrutura, mas, com um detalhe: diretórios possuem conteúdo dentro, por isso, há a necessidade de utilizarmos o parâmetro `-r` indicando ser uma cópia recursiva, afinal, além do diretório precisamos copiar todo o seu conteúdo! Um exemplo prático seria:
+Para copiar diretórios utilizamos a mesma estrutura, mas, com um detalhe: diretórios possuem conteúdo dentro, por isso, há a necessidade de utilizarmos o parâmetro `-r` indicando ser uma cópia recursiva, afinal, além do diretório, precisamos copiar todo o seu conteúdo! Um exemplo prático seria:
 
 ```sh
 guto@turing:~$ cp -r /home/user2 .
 ```
 
-Mas e se eu quisesse todo o conteúdo do diretório, mas, sem copiar ele? Simples: 
+Caso eu quisesse todo o conteúdo do diretório, mas, sem copiar ele, é possível? Simples: 
 
 ```sh
 guto@turing:~$ cp -r /home/user2/* .
 ```
-> O sinal de asterisco "`*`" indica que queremos todo o conteúdo de um diretório, sem restrições! Este sinal se refere à todos os arquivos, mas, em breve vamos descobrir como podemos definir parâmetros para esta seleção!
+> O sinal de asterisco "`*`" indica que queremos todo o conteúdo de um diretório, sem restrições! Este sinal se refere a todos os arquivos, mas, em breve vamos descobrir como podemos definir parâmetros para esta seleção!
 
 ## Mv
 
 O comando `mv` é utilizado para mover arquivos, além de ter uma função bem específica: renomear arquivos. O ato de renomear um arquivo é feito com o comando "mv", afinal, estamos movendo um arquivo para o mesmo diretório em que se encontra, mas, alterando seu nome! Sua estrutura é idêntica ao comando "cp", mas, com um detalhe bem importante a ser tratado, por isso, veja o exemplo abaixo.
 
 ```sh
-guto@turing:~$ mv novo.txt novo4.txt # Renomeando o arquivo
-guto@turing:~$ mv novo.txt ../ # Movendo o arquivo para o diretório anterior
-guto@turing:~$ mv novo.txt ../novo4.txt # Movendo o arquivo para o diretório anterior e renomeando ele
+guto@turing:~$ mv novo.txt novo4.txt # eenomeando o arquivo
+guto@turing:~$ mv novo.txt ../ # movendo o arquivo para o diretório anterior
+guto@turing:~$ mv novo.txt ../novo4.txt # movendo o arquivo para o diretório anterior e renomeando ele
 ```
 
 ## Rm e rmdir
@@ -73,10 +73,10 @@ Ambos os comandos possuem função de remover arquivos, mas, enquanto o comando 
 ```sh
 # rm
 guto@turing:~$ rm novo.txt
-guto@turing:~$ rm -r Novo # Este é um diretório não vazio!
+guto@turing:~$ rm -r Novo # este é um diretório não vazio!
 
 # rmdir
-guto@turing:~$ rmdir NovoVazio # Este é um diretório vazio!
+guto@turing:~$ rmdir NovoVazio # este é um diretório vazio!
 ```
 
 

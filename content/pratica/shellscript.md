@@ -2,7 +2,7 @@
 
 Já parou pra pensar em como seria interessante juntar todos os comandos aprendidos até o momento em um único script, sendo capaz de executar determinada tarefa da maneira como desejar? Pois é, dessa visão surgiu o que chamamos de "Shell Script"!
 
-Shell Script é o nome dado a todo script escrito para ser interpretado por um interpretador de shell, utilizando comandos, variávies e diversas funcionalidades que podem ser aplicadas de acordo com a vontade do programador!
+Shell Script é o nome dado a todo script escrito para ser interpretado por um interpretador de shell, utilizando comandos, variáveis e diversas funcionalidades que podem ser aplicadas de acordo com a vontade do programador!
 
 ## Estrutura
 
@@ -31,7 +31,7 @@ echo "Hello World!"
 ```
 > "echo" é o comando utilizado para imprimir alguma mensagem!
 
-Agora com nosso primeiro shell script pronto, após salvar nosso arquivo, vamos executar simplesmente chamando pelo arquivo, podendo se utilizar o caminho aabsoluto ou caminho relativo.
+Agora com nosso primeiro shell script pronto, após salvar nosso arquivo, vamos executar simplesmente chamando pelo arquivo, podendo se utilizar o caminho absoluto ou caminho relativo.
 
 ### Caminho absoluto
 
@@ -70,9 +70,9 @@ nome="guto"
 
 echo "Oi $nome"
 ```
-> As aspas duplas permitem a invocação de variáveis em seu conteúdo, enquando as aspas simples não.
+> As aspas duplas permitem a invocação de variáveis em seu conteúdo, enquanto as aspas simples não.
 
-Certo, mas e se eu estivesse esperando o usuário digitar o nome dele? Simples! Basta utilizar o comando `read`!
+Certo, e se eu estivesse esperando o usuário digitar o nome dele? Simples! Basta utilizar o comando `read`!
 
 ```sh
 #!/bin/bash
@@ -120,7 +120,7 @@ else
 fi
 ```
 
-Primeiramente vamos pedir para o usuário informar dois números, logo depois começamos o comando "if" que respeita a estrutura `if [ condição ]; then` (sendo essencial este ponto e vírgula e este espaço entre os colchetes), seguido do comando "elif" que seria nada mais que o "else if" que estamos habituados, finalizando com um "else" e um "fi" para indicar a finalização da estrutura deste "if".
+Primeiramente vamos pedir para o usuário informar dois números, logo depois começamos o comando "if" que respeita a estrutura `if [ condição ]; then` (sendo essencial este ponto e vírgula além deste espaço entre os colchetes), seguido do comando "elif" que seria nada mais que o "else if" que estamos habituados, finalizando com um "else" e um "fi" para indicar a finalização da estrutura deste "if".
 
 Percebeu que não utilizei símbolos nas comparações, mas, letras que se parecem com parâmetros? Pois é, desta forma comparamos valores em shell script!
 
@@ -189,7 +189,7 @@ for i in {1..10}; do
 done
 ```
 
-Perceba que não utilizamos parênteses, apenas um "in" e depois definimos a faixa para que o laço funcione (bem parecido com linguagens como Python, por exemplo).
+Perceba que não utilizamos parênteses, apenas um "in" e depois definimos a faixa para que o laço funcione (parecido com linguagens como Python, por exemplo).
 
 ## While
 
@@ -243,7 +243,7 @@ Perceba que nos parênteses da função não foi declarado nenhum nome para vari
 
 Basicamente: o parâmetro chega na função com a variável sendo o número da posição daquele parâmetro, começando do 1!
 
-Caso queira estudar um pouco mais sobre o funcionamendo do shell script e se aprofundar sobre como utilizar ele de maneira única, acesse o site do [DevMedia](https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778)!
+Caso queira estudar um pouco mais sobre o funcionamento do shell script e se aprofundar sobre como utilizar ele de maneira única, acesse o site do [DevMedia](https://www.devmedia.com.br/introducao-ao-shell-script-no-linux/25778)!
 
 ---
 

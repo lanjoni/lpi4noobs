@@ -6,7 +6,7 @@ Parabéns! Se você chegou até aqui saiba que você está **pronto** para tirar
 
 Para realizar uma compra com ou sem cupom veja o guia oficial em português da LPI, escrito por Eduardo Lima, clicando [aqui](https://odoo.lpi.org/web/content/70391?access_token=3e2c606e-3b3c-4556-a4ed-91aea620d985)!
 
-Para os valores no Brasil: o valor de compra é reduzido quando comparado à outros países, o motivo? Cotação do dólar! Então quer dizer que você ainda vai conseguir pagar menos pelo mesmo certificado!
+Para os valores no Brasil: o valor de compra é reduzido quando comparado a outros países, o motivo? Cotação do dólar! Então quer dizer que você ainda vai conseguir pagar menos pelo mesmo certificado!
 
 ---
 

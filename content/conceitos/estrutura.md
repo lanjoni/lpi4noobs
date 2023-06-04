@@ -8,7 +8,7 @@ ls /
 
 Você verá uma série de diretórios e nomes estranhos. Estes nomes compõem o que chamamos de "Hierarquia de Diretórios" ou "Filesystem Hierarchy Standard" para sistemas operacionais Linux. 
 
-Toda a nossa estrutura é formada partindo da raíz, que seria como se fosse o "início" de nossos diretórios. Vamos entender como cada um funciona e quais são suas finalidades:
+Toda a nossa estrutura é formada partindo da raiz, que seria como se fosse o "início" de nossos diretórios. Vamos entender como cada um funciona e quais são suas finalidades:
 
 ## /
 

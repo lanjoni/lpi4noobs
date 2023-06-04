@@ -24,18 +24,18 @@ Esta combinação de comandos fica ainda mais interessante quando tratamos com o
 O comando grep é muito conhecido e muito utilizado em combinações de comandos por ter a utilidade de realizar buscas de padrões em arquivos, podendo-se utilizar expressões regulares para buscas mais específicas.
 
 Alguns parâmetros do comando grep:
-- -a, --text: Trata arquivos binários como arquivos de texto;
-- -c: Imprime somente a contagem das linhas com expressão;
-- -e: Define um padrão a ser procurado;
-- -h: Mostra
-- -i: Ignora a diferença entre letras maiúsculas e minúculas;
-- -n: Mostra o número de cada linha em um arquivo com expressão;
-- -s: Não exibe mensagens de erro;
-- -v: Mostra todas as linhas, exceto as linhas com expressão;
+- -a, --text: trata arquivos binários como arquivos de texto;
+- -c: imprime somente a contagem das linhas com expressão;
+- -e: define um padrão a ser procurado;
+- -h: mostra
+- -i: ignora a diferença entre letras maiúsculas e minúsculas;
+- -n: mostra o número de cada linha em um arquivo com expressão;
+- -s: não exibe mensagens de erro;
+- -v: mostra todas as linhas, exceto as linhas com expressão;
 
 Certo, mas como podemos utilizar o comando grep? Bom, primeiramente crie um arquivo de texto bem grande, pra gente poder brincar um pouco. Caso deseje, simplesmente gere um [Lorem Ipsum](https://www.lipsum.com/).
 
-Primeiro vamos simplesmente procurar por todas as palvras "lorem" de nosso texto com o comando:
+Primeiro vamos simplesmente procurar por todas as palavras "lorem" de nosso texto com o comando:
 
 ```sh
 $ grep lorem lorem.txt
@@ -51,7 +51,7 @@ $ grep -o lorem lorem.txt | wc -l
 ```
 > O parâmetro "-o" reduz a mensagem para imprimir em lista todas as ocorrências da palavra, na qual combinado com o comando "wc" mostramos o número de vezes que essa ocorrência se repete!
 
-Ainda assim podemos buscar uma letra ou palavra no início ou no final de uma linha, na qual o acento circunflexo ("^") simboliza o início e o cifrão ("$") simboliza o final de uma linha, olha só:
+Ainda assim podemos buscar uma letra ou palavra no início, ou no final de uma linha, na qual o acento circunflexo ("^") simboliza o início e o cifrão ("$") simboliza o final de uma linha, olha só:
 
 ```sh
 $ grep -i "^l" lorem.txt
@@ -71,14 +71,14 @@ Ainda podemos adicionar expressões regulares com o comando grep, veja o exemplo
 $ grep "^.[aeiou]" lorem.txt
 ```
 
-As possibilidades de uso do comando grep são infinitas! Por isso, se você quiser se aprofundar um pouco mais no uso do comando em si recomendo acessar o [Certificação Linux](https://www.certificacaolinux.com.br/comando-linux-grep/) e o [Guia Linux](https://guialinux.uniriotec.br/grep/) da UNIRIO/CCET!
+As possibilidades de uso do comando grep são infinitas! Por isso, se você quiser se aprofundar um pouco mais no uso do comando em si, recomendo acessar o [Certificação Linux](https://www.certificacaolinux.com.br/comando-linux-grep/) e o [Guia Linux](https://guialinux.uniriotec.br/grep/) da UNIRIO/CCET!
 
 ## Saídas com > e >>
 
 Enviar a saída de um comando para um arquivo de texto é algo que pode te auxiliar muito! Por isso, vamos entender um pouco sobre quais são as diferenças entre ">" e ">>"!
 
-- ">": Utilizado para enviar um retorno de um comando, apagando todo o conteúdo de um arquivo e sobrescrevendo!
-- ">>": Utilizado para enviar um retorno de um comando, mas, mantendo o que já se existia antes no arquivo!
+- ">": utilizado para enviar um retorno de um comando, apagando todo o conteúdo de um arquivo e sobrescrevendo!
+- ">>": utilizado para enviar um retorno de um comando, mas, mantendo o que já se existia antes no arquivo!
 
 ### Exemplos práticos: 
 

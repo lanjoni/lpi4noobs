@@ -51,7 +51,7 @@ Excelente! Agora que já entramos neste novo diretório vamos voltar para o dire
 guto@turing:~/Downloads/Novo$ cd ../..
 guto@turing:~$
 ```
-> Os dois pontos `..` simbolizam que queremos ir para o diretório anterior! Utilizar da forma que utilizamos sigfnifica que voltamos para dois diretórios anteriores!
+> Os dois pontos `..` simbolizam que queremos ir para o diretório anterior! Utilizar da forma que utilizamos significa que voltamos para dois diretórios anteriores!
 
 ## Caminho absoluto
 
@@ -59,13 +59,13 @@ Agora que já entendemos como é o funcionamento do caminho relativo (partindo d
 
 Um exemplo prático seria ao invés de utilizarmos o comando `cd Downloads/Novo` partindo do diretório home de nosso usuário, utilizar `cd /home/guto/Downloads/Novo` e iríamos obter o mesmo resultado!
 
-Basicamente falando o caminho absoluto sempre vai começar com esta barra "/" no começo, pois significa que estamos partindo da raíz de nosso sistema operacional!
+Basicamente falando o caminho absoluto sempre vai começar com esta barra "/" no começo, pois significa que estamos partindo da raiz de nosso sistema operacional!
 
 O uso de cada um vai depender da localização em que seu usuário estiver, afinal, em diversas ocasiões utilizar o caminho relativo não será a melhor forma!
 
 ## Home
 
-Um truque interessante é: a home do usuário logado sempre será representada pelo sinal de um "til" (~), isto significa que aquele sinal no começo não era besteira, mas, o sinal de o "til" seria equivalente ao diretório "/home/guto"!
+Um truque interessante é: a home do usuário logado sempre será representada pelo sinal de um "til" (~), isto significa que aquele sinal no começo não era besteira, mas, o sinal do "til" seria equivalente ao diretório "/home/guto"!
 
 Certo, então quer dizer que se eu utilizar o comando `cd ~` eu irei voltar para a home de meu usuário? Sim! Digo ainda mais: se você utilizar o comando `cd` apenas sem nenhuma adição ele vai te enviar diretamente para o home de seu usuário (dependendo do seu interpretador de shell)!
 

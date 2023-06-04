@@ -48,7 +48,7 @@ Com grupos podemos reunir diversos usuários que terão permissões compartilhad
 # addgroup nome_do_grupo
 ```
 
-Assim que temos um grupo criado, podemos facilmente relecionar usuários que farão parte deste grupo, correto?
+Assim que temos um grupo criado, podemos facilmente selecionar usuários que farão parte deste grupo, correto?
 
 ## Adicionando usuários em um grupo
 

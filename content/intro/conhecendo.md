@@ -2,11 +2,11 @@
 
 Uma das coisas mais interessantes sobre o mundo Linux é entender o funcionamento de distribuições. 
 
-Uma distribuição Linux é um sistema operacional completo, contendo o Kernel Linux, pacotes específicos do projeto GNU, além de um gerenciador de pacotes. As distribuições podem ser independentes (surgindo sem se basear em outra) ou podem ser baseadas em outras distribuições. Um exemplo de distribuição independente que podemos citar é o Debian, no qual possui o Ubuntu como uma distribuição baseada. Existem diversas distribuiçõe. Esta alta gama de possibilidades de uso faz com que sejam tão amigáveis para cada usuário em específico. Por isso, vamos conhecer algumas delas.
+Uma distribuição Linux é um sistema operacional completo, contendo o Kernel Linux, pacotes específicos do projeto GNU, além de um gerenciador de pacotes. As distribuições podem ser independentes (surgindo sem se basear em outra) ou podem ser baseadas em outras distribuições. Um exemplo de distribuição independente que podemos citar é o Debian, no qual possui o Ubuntu como uma distribuição baseada. Existem diversas distribuições. Esta alta gama de possibilidades de uso faz com que sejam tão amigáveis para cada usuário em específico. Por isso, vamos conhecer algumas delas.
 
 ## Slackware <img align="right" width="100" src="../img/slackware.png" alt="Logo distribuição Slackware">
 
-Famoso por ser a distribuição mais antiga e conhecida, sendo ainda mantida em atividade pela comunidade e pelo seu criador Patrick Volkerding, o Slackware é uma distribuição Linux independente, surgindo em 16 de juhlo de 1993, com gerenciador de pacotes "Slackpkg". Seu nome surgiu de uma sátira enfatizando "slack" como senso de liberdade, na qual poderíamos traduzir como "preguiça". 
+Famoso por ser a distribuição mais antiga e conhecida, sendo ainda mantida em atividade pela comunidade e pelo seu criador Patrick Volkerding, o Slackware é uma distribuição Linux independente, surgindo em 16 de julho de 1993, com gerenciador de pacotes "Slackpkg". Seu nome surgiu de uma sátira enfatizando "slack" como senso de liberdade, na qual poderíamos traduzir como "preguiça". 
 
 Uma curiosidade sobre a distribuição é que em seus anúncios de versões não tivemos uma versão 5.x ou 6.x, da versão 4.0 pulamos para a versão 7.0.
 
@@ -71,7 +71,7 @@ ou
 
 Uma distribuição popular no mundo Linux é o chamado Arch Linux, surgido em março de 2002 e inicialmente desenvolvido pelo canadense Judd Vinet, mas, atualmente mantido por toda a comunidade. Liderando o projeto até outubro de 2007, Vinet transferiu o controle do projeto para Aaron Griffin. Sua principal filosofia é se baseando em cinco pontos: modernidade, pragmatismo, simplicidade, centralidade no usuário e versatilidade.
 
-O Arch Linux se destaca das demais distribuições por ter um funcionamento um tanto quanto diferente: não existem releases fixas com versões assim como nas demais distribuições citadas, existem *rolling releases*, um sistema no qual o usuário tem acesso às últimas atualizações de pacotes estáveis, mas, o usuário faz o controle dos pacotes que quer instalar e atualizar.
+O Arch Linux se destaca das demais distribuições por ter um funcionamento um tanto quanto diferente: não existem releases fixas com versões assim como nas demais distribuições citadas, existe o modelo *rolling-release*, um sistema no qual o usuário tem acesso às últimas atualizações de pacotes estáveis, mas, o usuário faz o controle dos pacotes que quer instalar e atualizar.
 
 É muito comum vermos sistemas operacionais tendo versões explícitas, pedindo ao usuário realizar atualizações. No Arch você não faz atualizações do sistema operacional como um todo, você seleciona quais pacotes quer atualizar e utilizar, sem a necessidade de uma mudança de visual e atualizações grandes que podem gerar problemas nos componentes do sistema.
 

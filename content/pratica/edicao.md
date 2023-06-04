@@ -1,6 +1,6 @@
 # Edição de arquivos
 
-A edição de arquivos pode ser feita de diversas maneiras utilizando um sistema Linux, por isso, vamos destacar algumas, mas, em sua maioria editores que funcionam dentro do próprio terminal, sendo que para aqueles que gostam de se aventurar na tecnologia e costumam programar, saiba que existem editores específicos para estas tarefas, na qual configurados corretamente podem aumentar **muito** a sua produtividade. Bora conhecer alguns?
+A edição de arquivos pode ser feita de diversas maneiras utilizando um sistema Linux, por isso, vamos destacar algumas, mas, em sua maioria editores que funcionam no próprio terminal, sendo que para aqueles que gostam de se aventurar na tecnologia e costumam programar, saiba que existem editores específicos para estas tarefas, na qual configurados corretamente podem aumentar **muito** a sua produtividade. Bora conhecer alguns?
 
 ## Gedit
 

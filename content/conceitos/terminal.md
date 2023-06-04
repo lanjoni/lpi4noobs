@@ -8,9 +8,9 @@ Diferente do que você viu nos filmes, nós não vamos chegar ao ponto de invadi
 
 Um conceito que surgiu logo no começo da era da computação, na qual existe até hoje como uma ferramenta essencial em um sistema operacional, o terminal seria basicamente a interface resultante da interação humano-computador, na qual segue o fluxo de entrada do usuário (input), processamento do computador, e retorna uma mensagem ou resposta esperada (saída).
 
-Essa aparência de "tela preta com letras verdes" não é tão difícil de se encontrar, mas, hoje em dia os desenvolvedores ou pessoas que fazem uso do terminal sempre customizam com o design que mais lhes agrada, fazendo com que seja totalmente interativo de acordo com o usuário.
+Essa aparência de "tela preta com letras verdes" não é tão difícil de se encontrar, mas, hoje em dia os desenvolvedores ou pessoas que usam o terminal sempre customizam com o design que mais lhes agradam, fazendo com que seja totalmente interativo de acordo com o usuário.
 
-O terminal pode ser simplesmente a única ferramenta em diversas ocasiões (como em configurações de servidores por exemplo), mas, não se preocupe, atualmente existem diversas ferramentas que impulsionam o seu funcionamento, assim, conseguimos editar trechos de código, rodar simples comandos, dividir a tela e muito mais.
+O terminal pode ser simplesmente a única ferramenta em diversas ocasiões (como em configurações de servidores, por exemplo), mas, não se preocupe, atualmente existem diversas ferramentas que impulsionam o seu funcionamento, assim, conseguimos editar trechos de código, executar simples comandos, dividir a tela e muito mais.
 
 Para entender melhor o motivo da existência do terminal, primeiro precisamos entender o que é "Shell" e como ele é aplicado com o terminal, que na realidade, "só é um emulador"...
 
@@ -32,7 +32,7 @@ Atualmente mantido pelo projeto GNU e pela Free Software Foundation, o Bash é e
 
 ## Zsh
 
-Surgindo nos anos 90, o zsh foi uma alternativa ao Bash que atraiu muitos usuários pela sua aparência e funcionalides adicionais, na qual foi distribuído inicialmente com uma licença respeitando os padrões da Berkeley e teve uma disparada no número de usuários quando a Apple em 2020 anunciou oficialmente que iria adotar o zsh como seu interpretador de shell padrão para sistemas macOS.
+Surgindo nos anos 90, o zsh foi uma alternativa ao Bash que atraiu muitos usuários pela sua aparência e funcionalidades adicionais, na qual foi distribuído inicialmente com uma licença respeitando os padrões da Berkeley e teve uma disparada no número de usuários quando a Apple em 2020 anunciou oficialmente que iria adotar o zsh como seu interpretador de shell padrão para sistemas macOS.
 
 ## Fish
 
