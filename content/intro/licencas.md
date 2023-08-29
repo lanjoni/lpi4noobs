@@ -2,46 +2,55 @@
 
 ## O que são licenças?
 
-Licenças são as limitações que um software pode possuir em seu uso com relação ao usuário. Basicamente podemos dizer que as licenças são responsáveis por definir até onde o usuário pode ir utilizando um determinado software. Sua importância é na determinação dos direitos de propriedade de um software, isto é, definir claramente o que o usuário pode fazer com aquele software.
+Licenças são como contratos de uso, onde o detentor do copyright (em geral o autor) define o que um usuário pode ou não fazer com um produto protegido pelas leis de propriede intelectual. Basicamente podemos dizer que as licenças são responsáveis por definir até onde o usuário pode ir utilizando um determinado software. Sua importância é na determinação dos direitos de propriedade de um software, isto é, definir claramente o que o usuário pode fazer com aquele software.
 
-Podemos ainda dizer que determinadas licenças trabalham com um conceito de contrato para permissões de uso entre o fornecedor do software e o usuário.
-
-Entender sobre o uso das licenças é essencial para diferenciarmos algo que por muitos é confundido: Software Livre e Software de Código Aberto (Open-Source).
+Entender sobre licenças é essencial para entender Software Livre e Software de Código Aberto (Open-Source).
 
 ## Software Livre x Software de Código Aberto
 
-Uma licença que já falamos anteriormente é a licença GNU GPL (que atualmente está em sua versão 3.0), caracterizada por ser uma licença de software livre e garante para o usuário às quatro liberdades do software livre que foram comentadas anteriormente. Para garantir total liberdade de uso existe o conceito de "copyleft", do qual um software é totalmente livre de direitos autorais sobre o software, garantindo domínio público para seu uso, mas, com direitos quanto à propriedade intelectual do portador do software.
+Uma licença que já falamos anteriormente é a licença GNU GPL (que atualmente está em sua versão 3.0), caracterizada por ser uma licença de software livre ou de código aberto (FOSS - Free and Open Source Software - um acrônimo agnóstico para tratar do que for comum às duas vertentes) e garante para o usuário às "quatro liberdades do software" que foram comentadas anteriormente, assim com a "Open Source Definition", derivada indireta das 4 liberdades.
 
-Uma licença de código aberto garante que o código-fonte de um software seja aberto, mas, permite custos para modificações, manutenção, entre outros serviços que podem ser prestados sob o uso do software em si, atrelados à algum determinado produto. 
+Para manter as liberdades de uso, em produtos derivados, existe o conceito de "copyleft", que é o apelido de uma característica em licenças, como a GNU GPL, que obriga a aplicação da mesma licença em softwares derivados. O Copyleft pode ser diferenciado como "fraco" ou "forte". Copyleft fraco é o que permite o uso do FOSS como parte (em geral lib ou plugin) de um software fechado ou de licença livre, porém incompativel. Esse conceito existe também na coleção de licenças Criative Commons, como "Share Alike".
 
-Podemos dizer que todo Software Livre é Software de Código Aberto, afinal, uma de suas requisições para ser livre é ter seu código-fonte aberto, mas, nem todo Software de Código Aberto é Livre.
+Licenças FOSS sem Copyleft são cjaadas de "permisivas". Dentre elas temos a MIT e a BSD, que permitem que o software seja diretamante usado por qualquer outro sob qualquer licença. Permite até mesmo o reuso do código sob outra licença, até mesmo fechada.
+
+Software sob licenças FOSS **não** são o mesmo que softwares em "domínio público". As licenças se apoiam na existência do Copyright, mesmo que subvertendo a sua prática padrão e são uma clara normatização do uso, enquanto obras em domínio público são protegidas apenas para manutenção da autoria. (Você não pode dizer que criou a Mona Lisa.)
+
+Licenças FOSS exigem que o código-fonte de um software esteja disponível e apesar da confusão comum, não impedem a venda ou cobrança para modificações, manutenção, entre outros serviços que podem ser prestados sob o uso do software em si, ou atrelados à algum determinado produto. Uma licença que proibe isso é a CC-by-nc (Creative Commons - Non Comercial). Essa licença não é considerada FOSS (FSF e OSI concordam), porque restringe a liberdade 0 do software livre e as liberdades 2 e 3 não restringem o "como compartilhar".
+
+A diferença entre FS e OSS está no discurso, vide as falas de [https://www.gnu.org/philosophy/open-source-misses-the-point.html](Stallman) e [https://lists.debian.org/debian-devel/1999/02/msg01641.html](Perens). Suas definições estao relacionadas: A definição de Open Source (em 10 pontos) veio da DFSG (Debian Free Software Gidelines), que é um "detalhamento" das 4 liberdades do SL. Ou seja, todos representam a mesma coisa, com palavras diferentes. As diferenças nas listas de licenças está no "gradiente de cinza" das definições e depende da interpretação, objetivos e interesses dos avaliadores, vide [https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licences#Approvals](as diferenças entre FSF, OSI, Debian e Fedora).
 
 ## Algumas licenças
 ### GNU GPL (GNU General Public License)
-- O código-fonte **deve** ser público e de domínio público.
-- Modificações no código **precisam** ser lançadas sob a mesma licença.
-- Toda mudança **deve** ser documentada.
-- Alguns projetos sob licença GNU GPL: Bash, GIMP, entre outros distribuídos pelo Projeto GNU.
+- O código-fonte **deve** ser entregue junto ao binário ou facilmente coletado sem oneração para quem adiquiriu o binário.
+- Serviços que usam software sob a GPL **não** são obrigados a compartilhar suas modificações.
+- Modificações **publicadas** do código **devem** ser lançadas sob a mesma licença.
+- Libera o uso de patentes, pertencentes ao autor, envolvidas no código do software.
+- Não existe obrigações realcionadas à documentação na licença, mas documentações podem ser igualmente protegidas pela GPL.
+- Alguns projetos sob licença GNU GPL: Bash, GIMP, Linux, GNOME, e grande parte do Projeto GNU.
+
+### GNU AGPL (GNU Afero General Public License)
+- as mesma garantias da GUN GPL e...
+- O código-fonte **deve** ser publicado e acessivel para qualquer usuário de um serviço de rede licenciado sob a AGPL.
+- Alguns projetos sob licença GNU AGPL: ScyllaDB, Bacula, Mastodon, e outros.
 
 ### Apache
-- O código-fonte não precisa ser público.
+- O código-fonte não precisa ser publicado ou entregue com os binários, apesar de ser um contracenso que inutiliza boa parte da licença.
 - Modificações podem ser lançadas sob qualquer licença.
 - Mudanças no código **precisam** ser documentadas.
 - Proíbe o uso de nomes de marcas registradas encontradas no projeto.
 - Alguns projetos sob licença Apache: Android, Apache e Swift.
 
 ### BSD (Berkeley Software Distribution)
-- O código-fonte não precisa ser público.
+- O código-fonte não precisa ser publicado ou entregue com os binários, apesar de ser um contracenso que inutiliza boa parte da licença.
 - Modificações podem ser lançadas sob qualquer licença.
-- Mudanças feitas no código não precisam ser documentadas.
 - Uso de patentes não é explícito.
 - Nomes dos autores e colaboradores não podem ser usados para promover produtos derivados do software sem permissão explícita.
 - Alguns projetos sob licença BSD: Go, Pure.css e Sentry.
 
 ### MIT
-- O código-fonte não precisa ser público.
+- O código-fonte não precisa ser publicado ou entregue com os binários, apesar de ser um contracenso que inutiliza boa parte da licença.
 - Modificações podem ser lançadas sob qualquer licença.
-- Mudanças feitas no código não precisam ser documentadas.
 - Uso de patentes não é explícito.
 - Alguns projetos sob licença MIT: jQuery, Bootstrap e Rails.
 
