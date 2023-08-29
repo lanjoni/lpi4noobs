@@ -2,7 +2,7 @@
 
 ## O que são licenças?
 
-Licenças são como contratos de uso, onde o detentos do copyright (em geral o autor) define o que um usuário pode ou não fazer com um produto protegido pelas leis de propriede intelectual. Basicamente podemos dizer que as licenças são responsáveis por definir até onde o usuário pode ir utilizando um determinado software. Sua importância é na determinação dos direitos de propriedade de um software, isto é, definir claramente o que o usuário pode fazer com aquele software.
+Licenças são como contratos de uso, onde o detentor do copyright (em geral o autor) define o que um usuário pode ou não fazer com um produto protegido pelas leis de propriede intelectual. Basicamente podemos dizer que as licenças são responsáveis por definir até onde o usuário pode ir utilizando um determinado software. Sua importância é na determinação dos direitos de propriedade de um software, isto é, definir claramente o que o usuário pode fazer com aquele software.
 
 Entender sobre licenças é essencial para entender Software Livre e Software de Código Aberto (Open-Source).
 
@@ -18,7 +18,7 @@ Software sob licenças FOSS **não** são o mesmo que softwares em "domínio pú
 
 Uma licenças FOSS exigem que o código-fonte de um software esteja disponível e apesar da confusão comum, não impedem a venda ou cobrança para modificações, manutenção, entre outros serviços que podem ser prestados sob o uso do software em si, ou atrelados à algum determinado produto. Uma licença que proibe isso é a CC-by-nc (Creative Commons - Non Comercial). Essa licença não é considerada FOSS (FSF e OSI concordam), porque restringe a liberdade 0 do software livre e as liberdades 2 e 3 não restringem o "como compartilhar".
 
-A diferença entre FS e OSS está no discurso, vide as falas de [https://www.gnu.org/philosophy/open-source-misses-the-point.html](Stallman) e [https://lists.debian.org/debian-devel/1999/02/msg01641.html](Perens). Suas definições estao relacionadas: A definição de Open Source (em 10 pontos) veio da DFSG (Debian Free Software Gidelines), que é um "detalhamento" das 4 liberdades do SL. Ou seja, todos representam a mesma coisa, com palavras diferentes. As diferenças nas listas de licenças está no "gradiente de cinza" das definições e depende da interpretação, objetivos e interesses dos avaliadores, vide [https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licences#Approvals](as difernças entre FSF, OSI, Debian e Fedora).
+A diferença entre FS e OSS está no discurso, vide as falas de [https://www.gnu.org/philosophy/open-source-misses-the-point.html](Stallman) e [https://lists.debian.org/debian-devel/1999/02/msg01641.html](Perens). Suas definições estao relacionadas: A definição de Open Source (em 10 pontos) veio da DFSG (Debian Free Software Gidelines), que é um "detalhamento" das 4 liberdades do SL. Ou seja, todos representam a mesma coisa, com palavras diferentes. As diferenças nas listas de licenças está no "gradiente de cinza" das definições e depende da interpretação, objetivos e interesses dos avaliadores, vide [https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licences#Approvals](as diferenças entre FSF, OSI, Debian e Fedora).
 
 ## Algumas licenças
 ### GNU GPL (GNU General Public License)
@@ -31,25 +31,25 @@ A diferença entre FS e OSS está no discurso, vide as falas de [https://www.gnu
 
 ### GNU AGPL (GNU Afero General Public License)
 - as mesma garantias da GUN GPL e...
-- O código-fonte **deve** ser públicado e acessivel para qualquer usuário de um serviço de rede licenciado sob a AGPL.
+- O código-fonte **deve** ser publicado e acessivel para qualquer usuário de um serviço de rede licenciado sob a AGPL.
 - Alguns projetos sob licença GNU AGPL: ScyllaDB, Bacula, Mastodon, e outros.
 
 ### Apache
-- O código-fonte não precisa ser públicado ou entregue com os binários, apesar de ser um contracenso que inutiliza boa parte da licença.
+- O código-fonte não precisa ser publicado ou entregue com os binários, apesar de ser um contracenso que inutiliza boa parte da licença.
 - Modificações podem ser lançadas sob qualquer licença.
 - Mudanças no código **precisam** ser documentadas.
 - Proíbe o uso de nomes de marcas registradas encontradas no projeto.
 - Alguns projetos sob licença Apache: Android, Apache e Swift.
 
 ### BSD (Berkeley Software Distribution)
-- O código-fonte não precisa ser públicado ou entregue com os binários, apesar de ser um contracenso que inutiliza boa parte da licença.
+- O código-fonte não precisa ser publicado ou entregue com os binários, apesar de ser um contracenso que inutiliza boa parte da licença.
 - Modificações podem ser lançadas sob qualquer licença.
 - Uso de patentes não é explícito.
 - Nomes dos autores e colaboradores não podem ser usados para promover produtos derivados do software sem permissão explícita.
 - Alguns projetos sob licença BSD: Go, Pure.css e Sentry.
 
 ### MIT
-- O código-fonte não precisa ser públicado ou entregue com os binários, apesar de ser um contracenso que inutiliza boa parte da licença.
+- O código-fonte não precisa ser publicado ou entregue com os binários, apesar de ser um contracenso que inutiliza boa parte da licença.
 - Modificações podem ser lançadas sob qualquer licença.
 - Uso de patentes não é explícito.
 - Alguns projetos sob licença MIT: jQuery, Bootstrap e Rails.
